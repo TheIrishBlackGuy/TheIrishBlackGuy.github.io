@@ -1,8 +1,8 @@
 body {
 
   
-color:rgb(0, 191, 255);
-background-color: rgb(40, 62, 188);
+color:rgb(34, 179, 205);
+background-color: rgb(50, 60, 117);
 
 }
 
@@ -21,7 +21,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: rgb(0, 255, 213);
+    color: rgb(234, 188, 82);
 }
 a:hover {
     text-decoration: none;
