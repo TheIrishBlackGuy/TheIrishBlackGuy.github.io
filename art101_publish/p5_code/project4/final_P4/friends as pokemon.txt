@@ -1,0 +1,29 @@
+
+
+Lyndon - Ivysaur (Grass)
+Ella - Pidgey (Flying)
+Daria - Doduo (Normal)
+Kyra - Mewtwo (Psychic)
+Alisha - Jigglypuff (Fairy)
+Vivian - Eevee (Normal)
+
+
+Nabeeha - Vulpix (Fire)
+Jupiter - Zubat (Dark)
+Rhyme - Kangaskhan (Normal)
+Jared - Snorlax (Normal)
+Khoa - Psyduck (Water)
+Elise - Pikachu (Electric)
+
+
+- add Pokémon cries btn
+- add Pokedex btn presses
+- add pokemon center main screen
+
+- add background
+
+default - smeargle
+
+
+
+

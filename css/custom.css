@@ -1,10 +1,8 @@
-/*DMG4EVR Palette
-Created by RABBITKNG*/
-
 body {
 
-color:#000000;
-background-color: #4d5966;
+  
+color:rgb(184, 112, 184);
+background-color: rgb(100, 40, 100);
 
 }
 
@@ -17,21 +15,21 @@ background-color: #4d5966;
   box-sizing: border-box; }
 
 a:link {
-    color: rgb(0, 96, 0);
+    color: rgb(64, 64, 255);
     text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
-    color: rgb(0, 128, 0);
+    color: rgb(128, 128, 255);
 }
 a:hover {
     text-decoration: none;
-    color: rgb(128, 255, 128);
+    color: rgb(255, 255, 255);
 }
 a:active {
     text-decoration: none;
-    color: rgb(192, 160, 0);
+    color: rgb(0, 0, 0);
 }
 
 td, th {
@@ -79,55 +77,27 @@ ul.disc{
 
 
 .statement_text {
-    background-color: #b3b37e;
+/** eagles green  */
+    background-color: rgb(0, 73, 83);
     padding: 12.5px;
     margin-top: 23px;
-    border: 12.5px dashed #333030;
-}
-
-.portfoilo1{
-  width: 95%;
-max-width: 500px;
-height: auto;
-margin: 2.5%;
-}
-
-.videoWrapper {
-  position: relative;
-  padding-top: 100%
-  /*padding-bottom: 56.25%;  16:9 aspect ratio (height/width) */
-  /*height: 0;
-  overflow: hidden;*/
-}
-
-#threeD, #video, #blurb {
-  background-color: #88985b;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  border-radius: 16px;
-}
-#twoD, #code, #art {
-  background-color: #667f59;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  border-radius: 16px;
+    border: 12.5px dashed rgb(255, 255, 255);
 }
 
 
-#nav {
-  background-color: #88985b;
-  padding-left: 5%;
-  padding-right: 5%;
-  margin-bottom: 16px;
+/* zoom stuff i pulled from online
+https://stackoverflow.com/questions/39858998/zoom-in-and-out-on-mouse-click-with-css */
+input[type=checkbox] {
+  display: none;
 }
 
+.container img {
+  margin: 100px;
+  transition: transform 0.25s ease;
+  cursor: zoom-out;
+}
 
-
-.video-container {
-  width: 100%; /* Change this percentage as needed */
-  margin: 0 auto; /* Center the column */
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: zoom-in;
 }
