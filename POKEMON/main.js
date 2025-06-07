@@ -345,20 +345,25 @@ push();
         rect(1200,550,637.5,562.5);
         rect(1200,1150,637.5,537.5);
         image(pokeball,300,650,375,375);
-    stroke(48,112,192)
+      stroke(48,112,192)
     fill(255,200,0)
     textFont(font1);
-    strokeWeight(8)
     textSize(80)
       text(`Pokémon?`,475,1350)
       text(`Who's that`,475,1250)
+      textFont(font3);
+          textSize(35)
 
+    stroke(48,112,192)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(40)
       text(`You have`,1525,700)
       text(`not caught`,1525,800)
       text(`this Pokémon`,1525,900)
       text(`yet`,1525,1000)
 
-    textSize(75)
       text(`Click the`,1525,1300) 
       text(`blue button to`,1525,1400)
       text(`return to`,1525,1500)
