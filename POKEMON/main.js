@@ -6,8 +6,7 @@
 //   {   
 //   // previous
 //   {
-//   if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-//   // // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+//   if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {//   // // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
 //     if (pressStartTimedecrease === 0) {
 //       pressStartTimedecrease = millis(); // Record the time when press starts
 //     }
@@ -24,7 +23,7 @@
 //   }
 //   // next
 //   {
-//   if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+//   if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 //   // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
 //     if (pressStartTimeincrease === 0) {
 //       pressStartTimeincrease = millis(); // Record the time when press starts
@@ -181,6 +180,7 @@ push();
     textFont(font1);
     strokeWeight(8)
     textSize(60)
+//bulba
 {
       text(`Bulbasaur`,475,650)
 if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 600 && mouseY < 650 ) {
@@ -198,6 +198,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 800 && mouseY < 
     mgr.showScene(venu);
 }
 }
+//char
 {
       text(`Charmander`,475,950)
 if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 900 && mouseY < 950 ) {
@@ -215,6 +216,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 575 && mouseY > 1100 && mouseY <
     mgr.showScene(izard);
 }
 }
+//squirt
 {
       text(`Squirtle`,475,1250)
 if ( mouseIsPressed && mouseX > 300 && mouseX < 575 && mouseY > 1200 && mouseY < 1250 ) {
@@ -232,6 +234,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1400 && mouseY <
     mgr.showScene(blast);
 }
 }
+//pika
 {
       text(`Pikachu`,475,1550)
 if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1500 && mouseY < 1550 ) {
@@ -244,6 +247,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1600 && mouseY <
     mgr.showScene(rai);
 }
 }
+//eevee
 {
       text(`Eevee`,1525,750)
 if ( mouseIsPressed && mouseX > 1375 && mouseX < 1650 && mouseY > 700 && mouseY < 750 ) {
@@ -266,6 +270,7 @@ if ( mouseIsPressed && mouseX > 1375 && mouseX < 1650 && mouseY > 1000 && mouseY
     mgr.showScene(flar);
 }
 }
+//birds
 {
       text(`Articuno`,1525,1150)
 if ( mouseIsPressed && mouseX > 1375 && mouseX < 1650 && mouseY > 1100 && mouseY < 1150 ) {
@@ -283,6 +288,7 @@ if ( mouseIsPressed && mouseX > 1375 && mouseX < 1650 && mouseY > 1300 && mouseY
     mgr.showScene(tres);
 }
 }
+//mew
 {           
       text(`Mewtwo`,1525,1450)
 if ( mouseIsPressed && mouseX > 1375 && mouseX < 1650 && mouseY > 1400 && mouseY < 1450 ) {
@@ -301,7 +307,7 @@ pop();
 
 //buttons
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
   }
@@ -448,8 +454,7 @@ mgr.showScene( izard );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -466,7 +471,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -569,8 +574,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -587,7 +591,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -690,8 +694,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -708,7 +711,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -814,8 +817,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -832,7 +834,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -921,8 +923,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -939,7 +940,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1042,8 +1043,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1060,7 +1060,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1166,8 +1166,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1184,7 +1183,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1280,8 +1279,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1298,7 +1296,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1405,8 +1403,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1423,7 +1420,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1529,8 +1526,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1547,7 +1543,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1643,8 +1639,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1661,7 +1656,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1765,8 +1760,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1783,7 +1777,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1880,8 +1874,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -1898,7 +1891,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1995,8 +1988,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2013,7 +2005,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2113,8 +2105,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2131,7 +2122,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2238,8 +2229,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2256,7 +2246,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2352,8 +2342,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2370,7 +2359,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2470,8 +2459,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2488,7 +2476,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2595,8 +2583,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2613,7 +2600,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2712,8 +2699,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2730,7 +2716,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2832,8 +2818,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2850,7 +2835,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -2957,8 +2942,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -2975,7 +2959,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -3090,8 +3074,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -3108,7 +3091,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -3210,8 +3193,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -3228,7 +3210,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -3324,8 +3306,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -3342,7 +3323,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -3442,8 +3423,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -3460,7 +3440,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -3555,8 +3535,7 @@ mgr.showScene( tres );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -3573,7 +3552,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -3682,8 +3661,7 @@ mgr.showScene( notCaught );
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940 ) {
-// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {// // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
   }
@@ -3700,7 +3678,7 @@ if ( mouseIsPressed && mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 300 && mouseX < 650 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts

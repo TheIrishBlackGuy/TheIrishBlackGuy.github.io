@@ -75,10 +75,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('It stores electricity in the electric sacs on its cheeks. When it releases pent-up energy in a burst, the electric power is equal to a lightning bolt.',1225,625,600,600)
 pop();
 }
@@ -90,12 +90,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Quick Attack -`,1525,1350)
         text(`- Thunder Wave -`,1525,1450)
         text(`- Electro Ball -`,1525,1550)
@@ -111,7 +111,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -237,10 +237,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('If it stores too much electricity, its behavior turns aggressive. To avoid this, it occasionally discharges excess energy and calms itself down.',1225,625,600,600)
 pop();
 }
@@ -252,12 +252,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Iron Tail - `,1525,1350)
         text(`- Thunder - `,1525,1450)
         text(`- Thunder Punch - `,1525,1550)
@@ -273,7 +273,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -399,10 +399,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('An EEVEE has an unstable genetic makeup that suddenly mutates due to its environment. Radiation from various STONES causes this POKéMON to evolve.',1225,625,600,600)
 pop();
 }
@@ -414,12 +414,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Quick Attack - `,1525,1350)
         text(`- Swift - `,1525,1450)
         text(`- Bite - `,1525,1550)
@@ -435,7 +435,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -561,10 +561,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('VAPOREON underwent a spontaneous mutation and grew fins and gills that allow them to live underwater. They have the ability to freely control water.',1225,625,600,600)
 pop();
 }
@@ -576,12 +576,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Water Gun - `,1525,1350)
         text(`- Aurora Beam - `,1525,1450)
         text(`- Muddy Water - `,1525,1550)
@@ -597,7 +597,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -723,10 +723,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('Its cells generate weak power that is amplified by its fur’s static electricity to drop thunderbolts. The bristling fur is made of electrically charged needles.',1225,625,600,600)
 pop();
 }
@@ -738,12 +738,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Thunder Shock - `,1525,1350)
         text(`- Thunder Fang - `,1525,1450)
         text(`- Discharge - `,1525,1550)
@@ -759,7 +759,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -885,10 +885,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('FLAREON’s fluffy fur releases heat into the air so that its body does not get excessively hot. Its body temperature can rise to a maximum of 1,650 degrees F.',1225,625,600,600)
 pop();
 }
@@ -900,12 +900,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Ember - `,1525,1350)
         text(`- Bite - `,1525,1450)
         text(`- Fire Fang - `,1525,1550)
@@ -921,7 +921,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts

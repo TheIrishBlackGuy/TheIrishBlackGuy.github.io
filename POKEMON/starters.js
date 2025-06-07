@@ -76,10 +76,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('BULBASAUR can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.',1225,625,600,600)
 pop();
 }
@@ -91,12 +91,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Tackle - `,1525,1350)
         text(`- Growl - `,1525,1450)
         text(`- Leech Seed - `,1525,1550)
@@ -112,7 +112,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -130,7 +130,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -239,10 +239,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('To support its bulb, IVYSAUR’s legs grow sturdy. If it spends more time lying in the sunlight, the bud will soon bloom into a large flower.',1225,625,600,600)
 pop();
 }
@@ -254,12 +254,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Razor Leaf - `,1525,1350)
         text(`- Poison Powder - `,1525,1450)
         text(`- Seed Bomb - `,1525,1550)
@@ -275,7 +275,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -293,7 +293,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -402,10 +402,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle.',1225,625,600,600)
 pop();
 }
@@ -417,12 +417,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Take Down - `,1525,1350)
         text(`- Petal Blizzard - `,1525,1450)
         text(`- Power Whip - `,1525,1550)
@@ -438,7 +438,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -456,7 +456,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -564,10 +564,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when CHARMANDER is happy, and blazes when it is enraged.',1225,625,600,600)
 pop();
 }
@@ -579,12 +579,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Scratch - `,1525,1350)
         text(`- Growl - `,1525,1450)
         text(`- Ember - `,1525,1550)
@@ -600,7 +600,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -618,7 +618,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -726,10 +726,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('Without pity, its sharp claws destroy foes. If it encounters a strong enemy, it becomes agitated, and the flame on its tail flares with a bluish white color.',1225,625,600,600)
 pop();
 }
@@ -741,12 +741,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Dragon Breath - `,1525,1350)
         text(`- Fire Fang - `,1525,1450)
         text(`- Slash - `,1525,1550)
@@ -762,7 +762,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -780,7 +780,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -889,10 +889,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('A CHARIZARD flies about in search of strong opponents. It breathes intense flames that can melt any material. However, it will never torch a weaker foe.',1225,625,600,600)
 pop();
 }
@@ -904,12 +904,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Air Slash - `,1525,1350)
         text(`- Fire Spin - `,1525,1450)
         text(`- Inferno - `,1525,1550)
@@ -925,7 +925,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -943,7 +943,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1051,10 +1051,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('Its shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling SQUIRTLE to swim at high speeds.',1225,625,600,600)
 pop();
 }
@@ -1066,12 +1066,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Tackle - `,1525,1350)
         text(`- Tail Whip - `,1525,1450)
         text(`- Water Gun - `,1525,1550)
@@ -1087,7 +1087,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -1105,7 +1105,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1213,10 +1213,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this POKéMON’s toughness in battle.',1225,625,600,600)
 pop();
 }
@@ -1228,12 +1228,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Bite - `,1525,1350)
         text(`- Water Pulse - `,1525,1450)
         text(`- Protect - `,1525,1550)
@@ -1249,7 +1249,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -1267,7 +1267,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -1375,10 +1375,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('The waterspouts that protrude from its shell are highly accurate. Their bullets of water can precisely nail tin cans from a distance of over 160 feet.',1225,625,600,600)
 pop();
 }
@@ -1390,12 +1390,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Shell Smash - `,1525,1350)
         text(`- Iron Defense - `,1525,1450)
         text(`- Hydro Pump - `,1525,1550)
@@ -1411,7 +1411,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -1429,7 +1429,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts

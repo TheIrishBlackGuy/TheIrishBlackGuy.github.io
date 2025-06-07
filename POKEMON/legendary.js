@@ -76,10 +76,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('ARTICUNO is a legendary bird POKéMON that can control ice. The flapping of its wings chills the air. As a result, it is said that when this POKéMON flies, snow will fall.',1225,625,600,600)
 pop();
 }
@@ -91,12 +91,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Roost - `,1525,1350)
         text(`- Ice Beam - `,1525,1450)
         text(`- Hurricane - `,1525,1550)
@@ -112,7 +112,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -130,7 +130,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -239,10 +239,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('ZAPDOS is a legendary bird POKéMON that has the ability to control electricity. It usually lives in thunderclouds.The POKéMON gains power if it is stricken by lightning bolts.',1225,625,600,600)
 pop();
 }
@@ -254,12 +254,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Drill Peck - `,1525,1350)
         text(`- Discharge - `,1525,1450)
         text(`- Thunder - `,1525,1550)
@@ -275,7 +275,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -293,7 +293,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -402,10 +402,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('MOLTRES is a legendary bird POKéMON that can control fire. If injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.',1225,625,600,600)
 pop();
 }
@@ -417,12 +417,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Air Slash - `,1525,1350)
         text(`- Heat Wave - `,1525,1450)
         text(`- Hurricane - `,1525,1550)
@@ -438,7 +438,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -456,7 +456,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -564,10 +564,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('A POKéMON that was created by genetic manipulation. However, even though the scientific power of humans made its body, they failed to give it a warm heart.',1225,625,600,600)
 pop();
 }
@@ -579,12 +579,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Psycho Cut - `,1525,1350)
         text(`- Psychic - `,1525,1450)
         text(`- Psystrike - `,1525,1550)
@@ -600,7 +600,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -618,7 +618,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts
@@ -726,10 +726,10 @@ push();
     fill(192,224,224)
         rect(1200,550,637.5,562.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(45)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(35)
         text('A MEW is said to possess the genes of all POKéMON. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.',1225,625,600,600)
 pop();
 }
@@ -741,12 +741,12 @@ push();
     fill(192,224,224)
         rect(1200,1150,637.5,537.5);
     stroke(48,112,192)
-    fill(255,200,0)
-    textFont(font1);
-    strokeWeight(7)
-    textSize(70)
+    fill(48,112,192)
+    textFont(font3);
+    strokeWeight(5)
+    textSize(60)
         text(`Moveset:`,1525,1250)
-    textSize(50)
+    textSize(35)
         text(`- Ancient Power - `,1525,1350)
         text(`- Metronome - `,1525,1450)
         text(`- Aura Sphere - `,1525,1550)
@@ -762,7 +762,7 @@ pop();
 {   
 // previous
 {
-if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 330 && mouseX < 620 && mouseY > 1780 && mouseY < 1940 ) {
 // // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimedecrease === 0) {
     pressStartTimedecrease = millis(); // Record the time when press starts
@@ -780,7 +780,7 @@ if ( mouseIsPressed && mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY <
 }
 // next
 {
-if ( mouseIsPressed && mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940 ) {
+if ( mouseIsPressed && mouseX > 1380 && mouseX < 1670 && mouseY > 1780 && mouseY < 1940 ) {
 // if ( mouseIsPressed && (mouseX > 400 && mouseX < 550 && mouseY > 1775 && mouseY < 1940) || (mouseX > 1450 && mouseX < 1590 && mouseY > 1775 && mouseY < 1940)) {
   if (pressStartTimeincrease === 0) {
     pressStartTimeincrease = millis(); // Record the time when press starts

@@ -26,7 +26,7 @@ let pokemonMove4 = "";
 // ChatGPT made the button timing
 let pressStartTimedecrease = 0;  // Stores the time when the mouse was first pressed
 let pressStartTimeincrease = 0;  // Stores the time when the mouse was first pressed
-let holdDuration = 125; // Time in milliseconds (e.g., 1000ms = 1 second)
+let holdDuration = 67.5; // Time in milliseconds (e.g., 1000ms = 1 second)
 // let keyisPressed
 
 // let moves = [data.moves[0].move.name];
@@ -403,9 +403,10 @@ function preload() {
 {
     font1 = loadFont('assets/font/Pokemon_Solid.ttf');
     font2 = loadFont('assets/font/Pokemon_Classic.ttf');
+    font3 = loadFont('assets/font/Pokemon_GB.ttf');
 
     vol = loadImage("assets/audio/volume.png");
-    pokedexO = loadImage("assets/pokedex_frame_open.png");
+    pokedexO = loadImage("assets/pokedex_frame_open2.png");
     pokedexC = loadImage("assets/pokedex_frame_close.png");
     pokeball = loadImage("assets/pokeball.png");
 
