@@ -1,5 +1,13 @@
 This will be the hub for all thing media from me 
 
+make a SJSU tab with all sjsu stuff
+- include the classes here
+- include bfa here
+
+clean up hub screen 
+- figure out css
+
+
 - art 12
   - take clear photos of each artwork
   - make solo page with descriptions
