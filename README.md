@@ -1,3 +1,5 @@
+https://theirishblackguy.github.io/home.html
+
 This will be the hub for all thing media from me 
 
 make a SJSU tab with all sjsu stuff
