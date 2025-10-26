@@ -25,6 +25,7 @@ function setup() {
   // stroke(0, 0, 0, 255);
   // frameRate(4);
   frameRate(30);
+  // frameRate(300);
   angleMode(DEGREES);
   noLoop();  
   console.log(frameCount);
@@ -37,11 +38,11 @@ function setup() {
 for (let i = 0; i < numloops; i++) {
     thestring = lindenmayer(thestring);
 }
-
 }
 
 function draw() {
   
+// console.log(round(frameCount/60));
 console.log(round(frameCount/60));
 // console.log(frameCount);
 
