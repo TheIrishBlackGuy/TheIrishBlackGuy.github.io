@@ -83,3 +83,31 @@ ul.disc{
     margin-top: 23px;
     border: 12.5px dashed rgb(255, 255, 255);
 }
+
+
+/* carosel */
+#slideshow{
+    margin: auto;
+}
+
+.card-img-top.d-block.img-fluid.rounded{
+    background-color: #fff0!important;
+}
+
+.btn-dark, 
+.btn-primary{
+    background-color: #7e67f6;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #129b77;
+}
+
+.bg-primary{
+    background-color: #7e67f6!important;
+}
+
+
+
+
