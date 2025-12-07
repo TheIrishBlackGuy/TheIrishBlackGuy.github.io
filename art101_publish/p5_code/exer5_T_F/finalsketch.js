@@ -1,4 +1,4 @@
-
+{
 //ex5 grids
 var grass = [
     [9,9,9,9,0,0,0,0,9,9,9,9,9,9,9,9],
@@ -290,7 +290,7 @@ var colorBirds = {
   8: [255,227,34],// yellow 
   9: [255,255,255] // white 
 };
-
+}
 let images =[];
 let font1;
 let font2;
@@ -495,6 +495,7 @@ function keyPressed() {
      // or 
     if ( key == '1' ) { 
       console.log("Page 1");
+      console.log(currentPage);
       currentPage = 1;
 
     } else if ( key == '2' ) { 
@@ -527,8 +528,9 @@ function keyPressed() {
 
     }
   
-    }
+}
 
+{
 function mapToColorPixels(arr,lx,ly,rot,sc) {
       push();
       translate(lx,ly);
@@ -811,7 +813,7 @@ function birds(arr,lx,ly,rot,sc) {
     }
     pop();
   }
-
+}
 //equal
 function lynTriEqual(lx, ly, sc, r){
   //let side = sc;
