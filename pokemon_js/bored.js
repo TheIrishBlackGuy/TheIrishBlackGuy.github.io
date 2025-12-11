@@ -24,19 +24,19 @@ function boredPassports() {
   if (Name == 'bulbasaur') {
     return Name = bulbasaur
   } else
-    //   if (Name == 'charmander'){
-    //     return Name = charmander; 
-    //     } else    
-    if (Name == 'squirtle') {
-      return Name = squirtle;
+    if (Name == 'charmander') {
+      return Name = charmander;
     } else
-      if (Name == 'pikachu') {
-        return Name = pikachu;
+      if (Name == 'squirtle') {
+        return Name = squirtle;
       } else
-        if (Name == 'tentacool') {
-          return Name = tentacool;
-        } else {
-          (Name = '')
-        }
+        if (Name == 'pikachu') {
+          return Name = pikachu;
+        } else
+          if (Name == 'tentacool') {
+            return Name = tentacool;
+          } else {
+            (Name = '')
+          }
 
 }
