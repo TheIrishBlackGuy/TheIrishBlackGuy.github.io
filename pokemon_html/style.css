@@ -1,0 +1,10 @@
+body{
+  text-align: center;  
+}
+
+details {
+  /* padding-top: 5%; */
+  padding-right: 10%;
+  /* padding-bottom: 50px; */
+  padding-left: 10%;
+}
