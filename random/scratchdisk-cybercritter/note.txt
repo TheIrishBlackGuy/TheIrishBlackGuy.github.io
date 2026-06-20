@@ -1,0 +1,4 @@
+- find the coords of poly corners
+- create a pop up alert to select an animal to view
+- click animal and it brings you to their habitat
+- answer questions
