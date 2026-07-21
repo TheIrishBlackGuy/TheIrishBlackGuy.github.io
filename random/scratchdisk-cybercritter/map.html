@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scratch-Disk_Cyber-Critters</title>
+
+    <!-- <script language="javascript" type="text/javascript" src="../../lib/p5.js"></script> -->
+    <script language="javascript" type="text/javascript" src="../../lib/p5.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="../../lib/p5.sound.js"></script> -->
+    <!-- <script language="javascript" type="text/javascript" src="../../lib/p5.sound.min.js"></script> -->
+    <script language="javascript" type="text/javascript" src="../../lib/p5play.js"></script>
+    <script language="javascript" type="text/javascript" src="../../lib/planck.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="../../lib/scenemanager.js"></script> -->
+
+    <script language="javascript" type="text/javascript" src="basic.js"></script>
+
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
+
 </head>
 
 <body style="text-align: center;">
@@ -25,39 +39,51 @@
         <hr>
     </div> -->
     <div>
-        <h1>sd-cc test</h1>
-        <!-- <h2>the zoo map</h2> -->
-        <!-- <p>Click on one of the habitats<br>-- links they go to are temporary<br>-- more pages W.I.P:</p> -->
 
-        <!-- <img src="assets/Zoo_Map_Layout_Draft.png" alt="zoo-map" usemap="#zoo-map" width="1800" height="1500"> -->
+        <h1><a href="main.html">Main Menu</a></h1><br><br>
 
-        <img src="assets/Zoo_Map_Layout_Draft.png" alt="zoo-map" usemap="#zoo-map" width="900" height="750">
+        <div>
 
-        <map name="zoo-map">
+            <h2><a href="tropical-safari.html">Tropical Safari</a></h2>
+            <h2><a href="aquarium.html">Aquarium</a></h2>
+            <h2><a href="farm.html">Farm</a></h2>
+            <h2><a href="greenhouse.html">Greenhouse</a></h2>
+            <br>
+            <br>
 
-            <!-- <area shape="poly" coords="200,200,500,175,700,225,725,425,475,525,400,600,350,725,200,725,125,325" alt="safari" href="https://en.wikipedia.org/wiki/Safari">
+            <img src="assets/map-v3.1.png" alt="zoo-map" usemap="#zoo-map">
+            <map name="zoo-map">
+
+                <!-- <area shape="poly" coords="200,200,500,175,700,225,725,425,475,525,400,600,350,725,200,725,125,325" alt="safari" href="https://en.wikipedia.org/wiki/Safari">
         <area shape="poly" coords="1250,250,1350,200,1500,175,1675,250,1675,650,1500,650,1250,475" alt="aquarium" href="https://en.wikipedia.org/wiki/Aquarium">
         <area shape="poly" coords="125,1000,425,850,550,1075,875,1175,875,1400,575,1475,125,1375" alt="farm" href="https://en.wikipedia.org/wiki/Farm">
         <area shape="poly" coords="1250,1000,1450,900,1650,1000,1575,1250,1650,1325,1625,1375,1550,1375,1275,1425,1075,1350,1050,1300,1225,1175" alt="terrarium" href="https://en.wikipedia.org/wiki/Terrarium">
         <area shape="poly" coords="675,600,775,475,925,475,925,575,825,675,850,900,925,925,925,1025,775,1025,700,950," alt="logic-puzzle" href="https://en.wikipedia.org/wiki/Logic_puzzle">
      -->
-            <!-- 1/2 scale -->
-            <area shape="poly"
-                coords="100,100,250,87.5,350,112.5,362.5,212.5,237.5,262.5,200,300,162.5,362.5,100,362.5,62.5,162.5"
-                alt="safari" href="https://en.wikipedia.org/wiki/Safari">
-            <area shape="poly" coords="625,125,675,100,750,87.5,837.5,125,837.5,325,750,325,625,237.5" alt="aquarium"
-                href="https://en.wikipedia.org/wiki/Aquarium">
-            <area shape="poly" coords="62.5,500,212.5,425,275,537.5,437.5,587.5,437.5,700,287.5,737.5,62.5,687.5"
-                alt="farm" href="https://en.wikipedia.org/wiki/Farm">
-            <area shape="poly"
-                coords="625,500,725,450,825,500,787.5,625,825,662.5,812.5,687.5,775,687.5,637.5,712.5,537.5,675,525,650,612.5,587.5"
-                alt="terrarium" href="https://en.wikipedia.org/wiki/Terrarium">
-            <area shape="poly"
-                coords="337.5,300,387.5,237.5,462.5,237.5,462.5,287.5,412.5,337.5,425,450,462.5,462.5,462.5,512.5,387.5,512.5,350,475"
-                alt="logic-puzzle" href="https://en.wikipedia.org/wiki/Logic_puzzle">
+
+                <!-- 1/2 scale -->
+                <!-- <area shape="poly"
+                    coords="100,100,250,87.5,350,112.5,362.5,212.5,237.5,262.5,200,300,162.5,362.5,100,362.5,62.5,162.5"
+                    alt="safari" href="https://en.wikipedia.org/wiki/Safari">
+                <area shape="poly" coords="625,125,675,100,750,87.5,837.5,125,837.5,325,750,325,625,237.5"
+                    alt="aquarium" href="https://en.wikipedia.org/wiki/Aquarium">
+                <area shape="poly" coords="62.5,500,212.5,425,275,537.5,437.5,587.5,437.5,700,287.5,737.5,62.5,687.5"
+                    alt="farm" href="https://en.wikipedia.org/wiki/Farm">
+                <area shape="poly"
+                    coords="625,500,725,450,825,500,787.5,625,825,662.5,812.5,687.5,775,687.5,637.5,712.5,537.5,675,525,650,612.5,587.5"
+                    alt="terrarium" href="https://en.wikipedia.org/wiki/Terrarium">
+                <area shape="poly"
+                    coords="337.5,300,387.5,237.5,462.5,237.5,462.5,287.5,412.5,337.5,425,450,462.5,462.5,462.5,512.5,387.5,512.5,350,475"
+                    alt="logic-puzzle" href="https://en.wikipedia.org/wiki/Logic_puzzle"> -->
+
+                <area shape="poly"
+                    coords="300,50,775,125,975,350,950,425,725,475,700,425,550,500,600,550,500,650,475,800,150,800,50,750,50,225,175,100"
+                    alt="safari" href="https://en.wikipedia.org/wiki/Safari">
+
+            </map>
 
 
-        </map>
+        </div>
     </div>
 </body>
 
