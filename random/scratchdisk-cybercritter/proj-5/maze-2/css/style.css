@@ -1,0 +1,131 @@
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    text-decoration: none;
+    /* color: rgb(0, 0, 0); */
+}
+
+body {
+
+    background-color: rgb(255, 255, 160);
+    /* background-image: url('https://content.instructables.com/FG9/BDIX/FXK6AFF4/FG9BDIXFXK6AFF4.jpg?auto=webp'); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+}
+
+.center-div {
+    text-align: center;
+    margin: 50px;
+
+}
+
+.intro {
+    background-color: rgb(192, 192, 192);
+    /* width: 100px; */
+    height: 200px;
+    border-radius: 50px;
+    /* transform: translate(10px, 10px); */
+}
+/* ---------- SHAPES ---------- */
+
+.up {
+    background-color: rgb(0, 132, 255);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+
+.upback {
+    background-color: rgb(10, 10, 145);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(140px, 80px);
+}
+
+.down {
+    background-color: rgb(215, 204, 43);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+
+.downback {
+    background-color: rgb(147, 140, 10);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(140px, -60px);
+}
+
+.left {
+    background-color: rgb(24, 173, 18);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+
+.leftback {
+    background-color: rgb(15, 101, 12);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(30px, 70px);
+}
+
+.right {
+    background-color: rgb(203, 13, 13);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+
+.rightback {
+    background-color: rgb(104, 11, 11);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(250px, -50px);
+}
+
+/* .base {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 50px auto;
+} */
+
+.room {
+    background-color: rgb(128, 96, 160);
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    transform: translate(0px, 20px);
+    margin: auto;
+}
+
+.roomback {
+    background-color: rgb(32, 32, 51);
+    width: 540px;
+    height: 540px;
+    border-radius: 270px;
+    transform: translate(0px, 0px);
+    margin: auto;
+}

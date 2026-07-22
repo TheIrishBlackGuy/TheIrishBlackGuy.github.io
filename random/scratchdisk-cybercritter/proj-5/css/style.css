@@ -1,0 +1,255 @@
+/* https://www.mazegenerator.net/ */
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+/* body {
+    background-color: rgb(128, 128, 128);
+} */
+
+
+.center-div {
+    text-align: center;
+    margin: 50px;
+
+}
+
+.intro {
+    background-color: rgb(192, 192, 192);
+    /* width: 100px; */
+    height: 200px;
+    border-radius: 50px;
+    /* transform: translate(10px, 10px); */
+}
+
+.outro {
+    background-color: rgb(128, 96, 192);
+    /* width: 100px; */
+    height: 200px;
+    border-radius: 50px;
+    /* transform: translate(10px, 10px); */
+}
+
+
+/* ---------- SHAPES ---------- */
+
+.up {
+    background-color: rgb(0, 96, 192);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.upback {
+    background-color: rgb(0, 0, 128);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(140px, 80px);
+}
+.down {
+    background-color: rgb(192, 192, 64);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.downback {
+    background-color: rgb(128, 128, 0);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(140px, -60px);
+}
+.left {
+    background-color: rgb(96, 192, 0);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.leftback {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(30px, 70px);
+}
+.right {
+    background-color: rgb(192, 0, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.rightback {
+    background-color: rgb(128, 0, 0);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(250px, -50px);
+}
+
+/* ---------- CHEAT ---------- */
+
+.upcheat {
+    background-color: rgb(192, 0, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.upbackcheat {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(140px, 80px);
+}
+.downcheat {
+    background-color: rgb(192, 0, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.downbackcheat {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(140px, -60px);
+}
+.leftcheat {
+    background-color: rgb(192, 0, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.leftbackcheat {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(30px, 70px);
+}
+.rightcheat {
+    background-color: rgb(192, 0, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+}
+.rightbackcheat {
+    background-color: rgb(0, 128, 0);
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    transform: translate(250px, -50px);
+}
+
+.roomcheat {
+    background-color: rgb(128, 128, 0);
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    transform: translate(0px, 20px);
+    margin: auto;
+}
+.roombackcheat {
+    background-color: rgb(32, 32, 51);
+    width: 540px;
+    height: 540px;
+    border-radius: 270px;
+    transform: translate(0px, 0px);
+    margin: auto;
+}
+
+
+/* .base {
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 50px auto;
+} */
+
+.room {
+    background-color: rgb(128, 96, 160);
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    transform: translate(0px, 20px);
+    margin: auto;
+}
+.roomback {
+    background-color: rgb(32, 32, 51);
+    width: 540px;
+    height: 540px;
+    border-radius: 270px;
+    transform: translate(0px, 0px);
+    margin: auto;
+}
+
+.button-div {
+    text-align: center;
+    margin: 75px auto;
+}
+.button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.cheat {
+    /* background-color: rgb(128, 0, 0); */
+    color: white;
+    /* width: 120px; */
+    /* height: 120px; */
+    border-radius: 60px;
+    transform: translate(-23px, 0px);
+}
+.devil {
+    /* background-color: rgb(128, 0, 0); */
+    color: white;
+    /* width: 120px; */
+    /* height: 120px; */
+    border-radius: 60px;
+    transform: translate(-1px, -90px);
+}
+
+.skip {
+    background-color: rgb(192, 0, 96);
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    transform: translate(100px, 10px);
+}
+
