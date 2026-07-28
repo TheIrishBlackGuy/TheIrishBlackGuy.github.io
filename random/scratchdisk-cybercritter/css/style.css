@@ -1,3 +1,11 @@
+a {
+    color: rgb(0, 0, 160);
+}
+
+a:hover {
+    color: rgb(0, 0, 255);
+}
+
 mark1 {
     background-color: red;
     color: white;
@@ -36,5 +44,18 @@ mark7 {
 mark8 {
     background-color: black;
     color: white;
+}
+
+
+.aqua-body {
+    background-image: url('../assets/background-aquarium-v1.1.png');
+    background-size: 100% auto;
+    /* opacity:; */
+}
+
+.aqua-div {
+    background-color: rgba(25, 168, 250, 0.5);
+    border-radius: 15px;
+    padding: 15px
 }
 

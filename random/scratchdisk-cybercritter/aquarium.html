@@ -28,79 +28,170 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <!-- <link rel="stylesheet" href="css/custom.css"> -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aqua.css">
 
     <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
+
+    <script>
+        function myFunctionOcto() {
+            let person = prompt("Please enter your name", "Harry Potter");
+            // let person = prompt("Please enter your name", "Harry Potter");
+        }
+    </script>
 
 </head>
 <!-- https://rendersnail.com/tools/nonogram-builder -->
 
 <!-- <body style="background-image: url('./assets/background-aquarium-v1.png'); background-repeat: no-repeat; background-size: cover; height: 100%;"> -->
-<body>
+
+<body class="aqua-body">
     <br>
 
     <div class="container">
 
         <br><br>
 
-        <div>
-            <h2 style="text-align: center;"><a href="map.html"><b>Return to Map</b></a></h2><br>
-            <h3 style="text-align: center;"> Welcome to the Aquarium Habitat<br>
-                Mal's nonogram puzzle will be here</h3>
+        <div class="aqua-div">
+            <h1 style="text-align: center;"><a href="map.html"><b>Return to Map</b></a></h1><br>
+            <h3 style="text-align: center;"> <b>Welcome to the Aquarium Habitat</b><br>
+                <!-- Mal's nonogram puzzle will be here</h3> -->
+            </h3>
         </div>
+        <br>
 
         <div class="row section">
 
             <div class="four columns" style="text-align: center;">
-                <br><br><br>
-                <h2 style="text-align: center;"><b>How to Play:</b></h2>
-                <h4 style="text-align: center;">--Numbers indicate how many filled pixels there are in each row or
-                    column.<br>
-                    -- Numbers greater than 1 are consecutive filled pixels<br>
-                    -- Series of numbers means there are spaces between sets of filled pixels<br>
-                </h4>
+                <div class="aqua-div">
+                    <br>
+                    <h3 style="text-align: center;"><b>How to Play:</b></h3>
+                    <h5 style="text-align: center;"><b>--Numbers indicate how many filled pixels there are in each row or
+                        column.<br>
+                        -- Numbers greater than 1 are consecutive filled pixels<br>
+                        -- Series of numbers means there are spaces between sets of filled pixels<br>
+                    </b></h5>
+                    <br>
+                </div>
             </div>
 
             <div class="four columns" style="text-align: center;">
-                <br><br>
-                <img src="assets/ref/hi-1.png" alt="test" width="100%">
-                <h4>Example before completion</h4>
+                <div class="aqua-div">
+                    <br>
+                    <img src="assets/ref/hi-1.png" alt="test" width="100%">
+                    <h5><b>Example before completion</b></h5>
+                </div>
             </div>
             <div class="four columns" style="text-align: center;">
-                <br><br>
-                <img src="assets/ref/hi.png" alt="test" width="100%">
-                <h4>Example after completion</h4>
+                <div class="aqua-div">
+                    <br>
+                    <img src="assets/ref/hi.png" alt="test" width="100%">
+                    <h5><b>Example after completion</b></h5>
+                </div>
             </div>
 
         </div>
+
+        <br>
 
         <div class="row section">
 
+
             <div class="six columns" style="text-align: center;">
-                <br>
-                <img src="assets/nonogram-crab.png" alt="mal1" width="75%">
+                <div class="aqua-div">
+                    <br>
+                    <a href="#popUp" id="openPopUp"><img src="assets/glitch-crab.png" alt="mal1" width="75%"></a>
+
+                    <!-- POP UP -->
+                    <aside id="popUp" class="popup">
+                        <div class="popUpContainer">
+                            <header>
+                                <div class="aqua-div">
+                                    <a href="#!" class="closePopUp">X</a>
+                                    <img src="assets/nonogram-crab.png" alt="mal1" width="75%">
+                                </div>
+                            </header>
+
+                        </div>
+                        <a href="#!" class="closePopUpOutSide"></a>
+                    </aside>
+                </div>
             </div>
 
             <div class="six columns" style="text-align: center;">
-                <br>
-                <img src="assets/nonogram-octopus.png" alt="mal2" width="75%">
+                <div class="aqua-div">
+                    <br>
+                    <a href="#popUp1" id="openPopUp1"><img src="assets/glitch-fish.png" alt="mal1" width="75%"></a>
+
+                    <!-- POP UP -->
+                    <aside id="popUp1" class="popup1">
+                        <div class="popUp1Container">
+                            <header>
+                                <div class="aqua-div">
+                                    <a href="#!" class="closePopUp1">X</a>
+                                    <img src="assets/nonogram-fish.png" alt="mal1" width="75%">
+                                </div>
+                            </header>
+
+                        </div>
+                        <a href="#!" class="closePopUp1OutSide"></a>
+                    </aside>
+                </div>
             </div>
+
 
         </div>
-        <br><br>
+
+        <br>
+
         <div class="row section">
 
+
             <div class="six columns" style="text-align: center;">
-                <br>
-                <img src="assets/nonogram-fish.png" alt="mal3" width="75%">
+                <div class="aqua-div">
+                    <br>
+                    <a href="#popUp2" id="openPopUp2"><img src="assets/glitch-octopus.png" alt="mal1" width="75%"></a>
+
+                    <!-- POP UP -->
+                    <aside id="popUp2" class="popup2">
+                        <div class="popUp2Container">
+                            <header>
+                                <div class="aqua-div">
+                                    <a href="#!" class="closePopUp2">X</a>
+                                    <img src="assets/nonogram-octopus.png" alt="mal1" width="75%">
+                                </div>
+                            </header>
+
+                        </div>
+                        <a href="#!" class="closePopUp2OutSide"></a>
+                    </aside>
+                </div>
             </div>
 
             <div class="six columns" style="text-align: center;">
-                <br>
-                <img src="assets/nonogram-shark.png" alt="mal4" width="75%">
+                <div class="aqua-div">
+                    <br>
+                    <a href="#popUp3" id="openPopUp"><img src="assets/glitch-shark.png" alt="mal1" width="75%"></a>
+
+                    <!-- POP UP -->
+                    <aside id="popUp3" class="popup3">
+                        <div class="popUp3Container">
+                            <header>
+                                <div class="aqua-div">
+                                    <a href="#!" class="closePopUp3">X</a>
+                                    <img src="assets/nonogram-shark.png" alt="mal1" width="75%">
+                                </div>
+                            </header>
+
+                        </div>
+                        <a href="#!" class="closePopUp3OutSide"></a>
+                    </aside>
+                </div>
             </div>
 
         </div>
+
+        <br>
 
     </div>
 
