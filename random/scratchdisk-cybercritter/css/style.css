@@ -1,12 +1,12 @@
-a {
+/* a {
     color: rgb(0, 0, 160);
 }
 
 a:hover {
     color: rgb(0, 0, 255);
-}
+} */
 
-mark1 {
+/* mark1 {
     background-color: red;
     color: white;
 }
@@ -45,12 +45,11 @@ mark8 {
     background-color: black;
     color: white;
 }
-
+ */
 
 .aqua-body {
     background-image: url('../assets/background-aquarium-v1.1.png');
     background-size: 100% auto;
-    /* opacity:; */
 }
 
 .aqua-div {
@@ -59,3 +58,41 @@ mark8 {
     padding: 15px
 }
 
+.green-body {
+    /* background-image: url('../assets/background-aquarium-v1.1.png'); */
+    /* background-size: 100% auto; */
+    background-color: rgba(14, 134, 32, 0.766);
+
+}
+
+.green-div {
+    background-color: rgba(24, 199, 59, 0.53);
+    border-radius: 15px;
+    padding: 15px
+}
+
+.farm-body {
+    /* background-image: url('../assets/background-aquarium-v1.1.png'); */
+    /* background-size: 100% auto; */
+    background-color: rgba(134, 112, 14, 0.766);
+
+}
+
+.farm-div {
+    background-color: rgba(199, 176, 24, 0.53);
+    border-radius: 15px;
+    padding: 15px
+}
+
+.tropari-body {
+    /* background-image: url('../assets/background-aquarium-v1.1.png'); */
+    /* background-size: 100% auto; */
+    background-color: rgba(108, 134, 14, 0.766);
+
+}
+
+.tropari-div {
+    background-color: rgba(164, 199, 24, 0.53);
+    border-radius: 15px;
+    padding: 15px
+}

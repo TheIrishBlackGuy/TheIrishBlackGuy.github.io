@@ -1,0 +1,48 @@
+a {
+    color: rgb(0, 128, 0);
+}
+
+a:hover {
+    color: rgb(0, 255, 0);
+}
+
+mark1 {
+    background-color: red;
+    color: white;
+}
+
+mark2 {
+    background-color: orange;
+    color: black;
+}
+
+mark3 {
+    background-color: yellow;
+    color: black;
+}
+
+mark4 {
+    background-color: greenyellow;
+    color: black;
+}
+
+mark5 {
+    background-color: blue;
+    color: white;
+}
+
+mark6 {
+    background-color: purple;
+    color: white;
+}
+
+mark7 {
+    background-color: magenta;
+    color: black;
+}
+
+mark8 {
+    background-color: black;
+    color: white;
+}
+
