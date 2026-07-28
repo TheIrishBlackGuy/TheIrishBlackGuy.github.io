@@ -50,6 +50,7 @@ mark8 {
 .aqua-body {
     background-image: url('../assets/background-aquarium-v1.1.png');
     background-size: 100% auto;
+    /* background-size:contain  */
 }
 
 .aqua-div {
