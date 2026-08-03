@@ -17,7 +17,7 @@
 }
 .popup .popUpContainer{
   width: 100%;
-  max-width: 500px;
+  max-width: 50px;
   position: fixed; /* To avoid scroll to target */
   left: 50%;
   top: -100vh;

@@ -48,9 +48,29 @@ mark8 {
  */
 
 .aqua-body {
-    background-image: url('../assets/background-aquarium-v1.1.png');
+    background-image: url('../assets/bg-test-size.png');
     background-size: 100% auto;
+
+    /* daria w3 */
+    /* Full height */
+    /* height: 100%; */
+
+    /* Center and scale the image nicely */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
     /* background-size:contain  */
+
+    /* Aakhya Singh codepen */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center center; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* color: white; */
+    /* text-align: center; */
+    /* display: table; */
 }
 
 .aqua-div {
@@ -86,14 +106,22 @@ mark8 {
 }
 
 .tropari-body {
-    /* background-image: url('../assets/background-aquarium-v1.1.png'); */
-    /* background-size: 100% auto; */
-    background-color: rgba(108, 134, 14, 0.766);
-
+    background-image: url('../assets/background-safari-v1.png');
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .tropari-div {
     background-color: rgba(164, 199, 24, 0.53);
     border-radius: 15px;
     padding: 15px
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 200px; */
+  /* border: 3px solid green;  */
 }
