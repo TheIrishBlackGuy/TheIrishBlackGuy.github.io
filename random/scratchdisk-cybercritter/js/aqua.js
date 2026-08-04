@@ -23,7 +23,8 @@ function setup() {
   bgc = color(224);
   gkcount = 20;
   rectMode(CENTER);
-  textAlign(CENTER)
+  textAlign(CENTER);
+  // noStroke();
 }
 
 
@@ -37,6 +38,28 @@ function draw() {
   if (mouseIsPressed) {
     drawChoice();
   }
+
+  {
+    for (let i = 0; i < height; i += 32.5) {
+      //fill(20,255,0);
+      // image(grass, i + 48, (height / 2) - 48, 48, 48);
+      // image(fire, i, (height / 2) - 48, 48, 48);
+      // image(grass, i, height / 2, 48, 48);
+      // image(fire, i + 48, height / 2, 48, 48);
+      //fill(255);
+      //rect(i, 0, 10, height);
+      // console.log(i);
+
+      // line(i + 48, (hei2ght / 2) - 48, 227, 227);
+      strokeWeight(2);
+      line(227 + i, 227, 227 + i, 715);
+      line(227, 227 + i, 715, 227 + i);
+    }
+// noStroke();
+
+
+  }
+
 }
 
 //rect(0,0,20,20); // 4 arg
@@ -59,14 +82,17 @@ function drawChoice() {
   switch (currentkey) {
     case '3': // black line
       console.log("3");
+      // noStroke();
       // let k = color(0);
-      strokeWeight(4)
+      // strokeWeight(4)
+      
       drawFatLine(color(0), mouseX, mouseY, pmouseX, pmouseY);
       break;
     case '4': // white line
       console.log("4");
       // let k = color(0);
-      strokeWeight(4)
+      // strokeWeight(4)
+      // noStroke();
       drawFatLine(color(255), mouseX, mouseY, pmouseX, pmouseY);
       break;
     // case '3': // magenta line
@@ -93,14 +119,14 @@ function drawChoice() {
     case '1': // cubic
       console.log("1");
       // fill(color(random(255), random(255), random(255)))
-      fill(color(0, 0, 0))
+      fill(color(0, 0, 0,64))
       // drawCubicLine(color(random(255), random(255), random(255)), mouseX, mouseY, pmouseX, pmouseY);
       drawCubicLine(color(0, 0, 0), mouseX, mouseY, pmouseX, pmouseY);
       break;
     case '2': // cubic
       console.log("2");
       // fill(color(random(255), random(255), random(255)))
-      fill(color(0, 0, 192))
+      fill(color(0, 64, 192,128))
       // drawCubicLine(color(random(255), random(255), random(255)), mouseX, mouseY, pmouseX, pmouseY);
       drawCubicLine(color(0, 0, 192), mouseX, mouseY, pmouseX, pmouseY);
       break;
@@ -148,7 +174,7 @@ function drawChoice() {
   }
 
   //default:             // Default executes if the case labels
-  console.log("None");   // don't match the switch parameter
+  // console.log("None");   // don't match the switch parameter
 
 }
 
@@ -190,12 +216,13 @@ function drawSpiralLine(k, lx, ly, px, py) {
 
 function drawCubicLine(k, lx, ly, px, py) {
 
-  strokeWeight(1);
+  strokeWeight(0);
   // stroke(random(255), random(255), random(255));
-  stroke(0, 0, 0);
+  // stroke(0, 0, 0);
   rect(lx, ly, 30, 30);
-  console.log(mouseX);
-  console.log(pmouseX);
+  console.log('X ' + mouseX);
+  console.log('Y ' + mouseY);
+  // console.log(pmouseX);
 
 }
 
@@ -253,3 +280,6 @@ function clear_print() {
 // mouseX > 120
 // pmouseX> 110
 // mouseX > 130
+
+// 227 260 292 325 357 389 422 454 486 519 552 584 616 650 682 715
+// __ 33  32  33  32  32  33  32  32  33  33  32  32  34  32  33  = 32.5
