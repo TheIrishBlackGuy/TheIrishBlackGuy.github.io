@@ -1,0 +1,42 @@
+@keyframes fadeCycle {
+	 0% {
+		 opacity: 0;
+		 z-index: 2;
+	}
+	 11.1111111111% {
+		 opacity: 1;
+	}
+	 44.4444444444% {
+		 opacity: 1;
+	}
+	 45.4444444444% {
+		 opacity: 0;
+		 z-index: 1;
+	}
+	 100% {
+		 opacity: 0;
+	}
+}
+ .u-fadeCycle-1, .u-fadeCycle-2, .u-fadeCycle-3 {
+	 animation-duration: 18s;
+	 animation-fill-mode: both;
+	 animation-iteration-count: infinite;
+	 animation-name: fadeCycle;
+	 animation-timing-function: ease-in;
+	 transition: opacity 2s ease-in;
+}
+ .u-fadeCycle-1 {
+	 animation-delay: 0s;
+}
+ .u-fadeCycle-2 {
+	 animation-delay: 6s;
+}
+ .u-fadeCycle-3 {
+	 animation-delay: 12s;
+}
+ img {
+	 left: 0;
+	 position: absolute;
+	 top: 0;
+}
+ 

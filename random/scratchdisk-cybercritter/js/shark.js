@@ -1,7 +1,7 @@
 let currentkey = '1';
 
 function preload() {
-  aqua = loadImage("assets/nonogram-crab.png")
+  aqua = loadImage("assets/nonogram-shark.png")
 }
 
 function setup() {
@@ -84,8 +84,8 @@ function clear_print() {
 
 function checkInput() {
   var userN = document.getElementById('username').value;
-  if (userN === "crab" || userN === "Crab" || userN === "CRAB") {
-    document.location = 'key-crab.html';
+  if (userN === "shark" || userN === "Shark" || userN === "SHARK") {
+    document.location = 'key-shark.html';
   } else alert("Wrong creature. Try again");
 }
 

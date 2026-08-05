@@ -24,8 +24,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <script language="javascript" type="text/javascript" src="../lib/p5.min.js"></script>
-    <!-- <script language="javascript" type="text/javascript" src="./js/aqua.js"></script> -->
+    <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./js/aqua.js"></script>
 
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/skeleton.css">
@@ -33,6 +33,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/aqua.css">
     <link rel="stylesheet" href="css/aqua2.css">
+    <!-- <link rel="stylesheet" href="fade-img.css"> -->
 
 
     <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -186,17 +187,59 @@
         </div>
         <br> -->
 
+
+
         <div>
             <div class="row section">
 
                 <div class="five columns" style="text-align: center;">
 
                     <div class="aqua-div"><a href="map.html">
-                            <h3>Back to map<h3>
+                            <h1><b>Back to map</b>
+                                <h1>
                         </a>
                     </div><br>
-                    <div class="aqua-div">how john dill would explain instructions in character goes here</div><br>
-                    <div class="aqua-div">john dill sprites, flavor text, and lore goes here</div>
+                    <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
+                    <div class="aqua-div">
+                        <p>
+                            Hey, So sorry that <b>The Aquarium</b> kinda glitched out right now. I would
+                            appreciate some assistance if you could interact with the <b>creatures</b> and see who is
+                            who. There
+                            should be a <b>puzzle</b> when you click their habitat that can help you figure it out.<br>
+                            <b> [describe how to solve <b>nonograms</b> in character] </b>
+                        </p>
+                    </div>
+                    <br>
+                    <!-- <div class="aqua-div">john dill sprites, flavor text, and lore goes here</div> -->
+                    <div class="aqua-div">john dill sprites, flavor text, and lore goes here
+                        <div class="w3-content w3-section" style="max-width:500px">
+                            <img class="mySlides" src="./assets/jd-default.png" width="50%">
+                            <img class="mySlides" src="./assets/jd-happy.png" width="50%">
+                            <img class="mySlides" src="./assets/jd-blank.png" width="50%">
+                            <img class="mySlides" src="./assets/jd-annoyed.png" width="50%">
+                            <img class="mySlides" src="./assets/jd-neutral-look-away.png" width="50%">
+                            <img class="mySlides" src="./assets/jd-stressed.png" width="50%">
+
+                            <script>
+                                var myIndex = 0;
+                                carousel();
+
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) { myIndex = 1 }
+                                    x[myIndex - 1].style.display = "block";
+                                    setTimeout(carousel, 2000); // Change image every 2 seconds
+                                }
+                            </script>
+                        </div>
+
+                        
+                    </div>
 
                 </div>
 
@@ -207,75 +250,51 @@
                             <div class="aqua-div">
                                 <br>
                                 <a href="aquarium-crab.html"><img src="assets/glitch-crab.png" alt="mal1"
-                                        width="75%"></a>
-
-
+                                        width="65%"></a>
+                                <!-- <p>Which animal's habitat is this?</p> -->
+                                <input type="text" id='username' placeholder="Animal's Keyword?">
+                                <!-- <button style="color: black;" type="button" id='buttonLogin' onclick="checkInput()">Submit</button> -->
 
                             </div>
+
                             <br>
+
                             <div class="aqua-div">
                                 <br>
-                                <a href="#popUp1" id="openPopUp1"><img src="assets/glitch-octopus.png" alt="mal1"
-                                        width="75%"></a>
-
-                                <aside id="popUp1" class="popup1">
-                                    <div class="popUp1Container">
-                                        <header>
-                                            <div class="aqua-div">
-                                                <a href="#!" class="closePopUp1">X</a>
-                                                <img src="assets/nonogram-octopus.png" alt="mal1" width="75%">
-                                            </div>
-                                        </header>
-
-                                    </div>
-                                    <a href="#!" class="closePopUp1OutSide"></a>
-                                </aside>
-
+                                <a href="aquarium-octo.html"><img src="assets/glitch-octopus.png" alt="mal1"
+                                        width="65%"></a>
+                                <input type="text" id='username1' placeholder="Animal's Keyword?">
+                                <!-- <button style="color: black;" type="button" id='buttonLogin' onclick="checkInput()">Submit</button> -->
                             </div>
                         </div>
 
                         <div class="six columns" style="text-align: center;">
                             <div class="aqua-div">
                                 <br>
-                                <a href="#popUp1" id="openPopUp1"><img src="assets/glitch-fish.png" alt="mal1"
-                                        width="75%"></a>
-
-                                <aside id="popUp1" class="popup1">
-                                    <div class="popUp1Container">
-                                        <header>
-                                            <div class="aqua-div">
-                                                <a href="#!" class="closePopUp1">X</a>
-                                                <img src="assets/nonogram-fish.png" alt="mal1" width="75%">
-                                            </div>
-                                        </header>
-
-                                    </div>
-                                    <a href="#!" class="closePopUp1OutSide"></a>
-                                </aside>
-
+                                <a href="aquarium-fish.html"><img src="assets/glitch-fish.png" alt="mal1"
+                                        width="65%"></a>
+                                <input type="text" id='username2' placeholder="Animal's Keyword?">
+                                <!-- <button style="color: black;" type="button" id='buttonLogin' onclick="checkInput()">Submit</button> -->
                             </div>
+
                             <br>
+
                             <div class="aqua-div">
                                 <br>
-                                <a href="#popUp1" id="openPopUp1"><img src="assets/glitch-shark.png" alt="mal1"
-                                        width="75%"></a>
-
-                                <aside id="popUp1" class="popup1">
-                                    <div class="popUp1Container">
-                                        <header>
-                                            <div class="aqua-div">
-                                                <a href="#!" class="closePopUp1">X</a>
-                                                <img src="assets/nonogram-shark.png" alt="mal1" width="75%">
-                                            </div>
-                                        </header>
-
-                                    </div>
-                                    <a href="#!" class="closePopUp1OutSide"></a>
-                                </aside>
-
+                                <a href="aquarium-shark.html"><img src="assets/glitch-shark.png" alt="mal1"
+                                        width="65%"></a>
+                                <input type="text" id='username3' placeholder="Animal's Keyword?">
+                                <!-- <button style="color: black;" type="button" id='buttonLogin' onclick="checkInput()">Submit</button> -->
                             </div>
                         </div>
-
+                        <br>
+                    </div>
+                    <br>
+                    <div class="aqua-div" style="width: 33.3%; transform: translate(100%);" type="button"
+                        id='buttonLogin' onclick="checkInput()">
+                        <button>
+                            <h4 style="color: black"><b>Submit</b></h4>
+                        </button>
                     </div>
                 </div>
 

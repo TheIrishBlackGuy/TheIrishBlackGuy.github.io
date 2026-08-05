@@ -1,7 +1,7 @@
 let currentkey = '1';
 
 function preload() {
-  aqua = loadImage("assets/nonogram-crab.png")
+  aqua = loadImage("assets/nonogram-fish.png")
 }
 
 function setup() {
@@ -22,10 +22,10 @@ function draw() {
   }
 
   {
-    for (let i = 0; i < 500; i += 32.5) {
+    for (let i = 0; i < 525; i += 34) {
       strokeWeight(2);
-      line(227 + i, 227, 227 + i, 715);
-      line(227, 227 + i, 715, 227 + i);
+      line(204 + i, 204, 204 + i, 715);
+      line(204, 204 + i, 715, 204 + i);
     }
   }
 }
@@ -84,8 +84,8 @@ function clear_print() {
 
 function checkInput() {
   var userN = document.getElementById('username').value;
-  if (userN === "crab" || userN === "Crab" || userN === "CRAB") {
-    document.location = 'key-crab.html';
+  if (userN === "fish" || userN === "Fish" || userN === "FISH") {
+    document.location = 'key-fish.html';
   } else alert("Wrong creature. Try again");
 }
 
