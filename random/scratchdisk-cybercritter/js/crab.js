@@ -131,12 +131,19 @@ function draw() {
 
   {
     for (let i = 0; i < 600; i += 39) {
-      strokeWeight(2);
-      line(287 + i, 287, 287 + i, 876);
-      line(287, 287 + i, 876, 287 + i);
+      strokeWeight(1.5);
+      //vert
+      line(288.5 + i, 288.5, 288.5 + i, 876);
+      //horiz
+      line(287, 287 + (i + .5), 876, 287 + (i + .5));
     }
-  }
-
+  //   fill(color(0, 128, 0, 16));
+  //   strokeWeight(0);
+  //   rect(581, 581, 581, 581);
+   }
+//  875
+// -288
+// =587
 }
 
 function drawChoice() {
@@ -144,40 +151,18 @@ function drawChoice() {
   switch (currentkey) {
     case '1': // cubic
       console.log("dark");
+
       // fill(color(0, 0, 128, 64))
       // drawCubicLine(color(0, 0, 0), mouseX, mouseY, pmouseX, pmouseY);
-
       for (var j = 0; j < 15; j++) {
         for (var i = 0; i < 15; i++) {
-          if (col[j * 15 + i]) fill(255, 0);
-          else fill(color(0, 0, 128, 64));
-          rect(270 + x[i], 270 + y[j], w, w);
-        }
-      }
 
-      break;
-    case '2': // cubic
-      // console.log("blue");
-      // fill(color(48, 112, 192, 96))
-      // drawCubicLine(color(0, 0, 192), mouseX, mouseY, pmouseX, pmouseY);
+          if (col[j * 15 + i]) fill(208, 255, 208);
+          else
+            fill(color(0, 0, 128, 64));
+          rect(270 + x[i], 270 + y[j], w, w);
+          console.log("this is j : " + j + ". this is i : " + i);
 
-      for (var j = 0; j < 15; j++) {
-        for (var i = 0; i < 15; i++) {
-          if (col[j * 15 + i]) fill(255, 0);
-          else fill(color(48, 112, 192, 96));
-          rect(270 + x[i], 270 + y[j], w, w);
-        }
-      }
-      break;
-    case '3': // cubic
-      // console.log("red");
-      // fill(color(192, 0, 0, 16))
-      // drawCubicLine(color(0, 0, 192), mouseX, mouseY, pmouseX, pmouseY);
-      for (var j = 0; j < 15; j++) {
-        for (var i = 0; i < 15; i++) {
-          if (col[j * 15 + i]) fill(255, 0);
-          else fill(color(192, 0, 0, 16));
-          rect(270 + x[i], 270 + y[j], w, w);
         }
       }
       break;
@@ -192,6 +177,75 @@ function drawChoice() {
           rect(270 + x[i], 270 + y[j], w, w);
         }
       }
+      break;
+    case '2': // cubic
+      push();
+      if (mouseIsPressed && mouseX > 250 && mouseX < 1000 && mouseY > 250 && mouseY < 1000) {
+        fill(color(0, 128, 0, 16));
+    strokeWeight(0);
+    rect(581, 581, 581, 581);
+  console.log('- - - - -')
+        console.log('X ' + Math.round(mouseX))
+        console.log('Y ' + Math.round(mouseY))
+      }
+      pop();
+      push();
+      if (mouseIsPressed && mouseX > 288 && mouseX < 325 && mouseY > 288 && mouseY < 325) {
+        fill(color(0, 128, 0)); 3
+        // ellipse(200, 200, 100, 100);
+        strokeWeight(0);
+        rect((288 + 325) / 2, (288 + 325) / 2, -(288 - 325) - 5, -(288 - 325) - 5);
+        console.log('- - - - -')
+        console.log('X ' + Math.round(mouseX))
+        console.log('Y ' + Math.round(mouseY))
+      }
+      pop();
+      // push();
+      // if (mouseIsPressed && mouseX > 288 && mouseX < 325 && mouseY > 288 && mouseY < 325) {
+      //   fill(color(0, 128, 0)); 3
+      //   // ellipse(200, 200, 100, 100);
+      //   strokeWeight(0);
+      //   rect((288 + 325) / 2, (288 + 325) / 2, -(288 - 325) - 5, -(288 - 325) - 5);
+      //   console.log('- - - - -')
+      //   console.log('X ' + Math.round(mouseX))
+      //   console.log('Y ' + Math.round(mouseY))
+      // }
+      // pop();
+      // push();
+      // if (mouseIsPressed && mouseX > 288 && mouseX < 325 && mouseY > 288 && mouseY < 325) {
+      //   fill(color(0, 128, 0)); 3
+      //   // ellipse(200, 200, 100, 100);
+      //   strokeWeight(0);
+      //   rect((288 + 325) / 2, (288 + 325) / 2, -(288 - 325) - 5, -(288 - 325) - 5);
+      //   console.log('- - - - -')
+      //   console.log('X ' + Math.round(mouseX))
+      //   console.log('Y ' + Math.round(mouseY))
+      // }
+      // pop();
+      // push();
+      // if (mouseIsPressed && mouseX > 288 && mouseX < 325 && mouseY > 288 && mouseY < 325) {
+      //   fill(color(0, 128, 0)); 3
+      //   // ellipse(200, 200, 100, 100);
+      //   strokeWeight(0);
+      //   rect((288 + 325) / 2, (288 + 325) / 2, -(288 - 325) - 5, -(288 - 325) - 5);
+      //   console.log('- - - - -')
+      //   console.log('X ' + Math.round(mouseX))
+      //   console.log('Y ' + Math.round(mouseY))
+      // }
+      // pop();
+      break;
+    case '3': // cubic
+      push();
+      if (mouseIsPressed && mouseX > 288 && mouseX < 325 && mouseY > 288 && mouseY < 325) {
+        fill(color(255));
+        // ellipse(200, 200, 100, 100);
+        strokeWeight(0);
+        rect((288 + 325) / 2, (288 + 325) / 2, -(288 - 325) - 5, -(288 - 325) - 5);
+        console.log('- - - - -')
+        console.log('X ' + Math.round(mouseX))
+        console.log('Y ' + Math.round(mouseY))
+      }
+      pop();
       break;
     // case '0': // cubic
     //   console.log("refresh");

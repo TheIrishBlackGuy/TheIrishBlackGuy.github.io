@@ -48,7 +48,7 @@ mark8 {
  */
 
 .aqua-body {
-    background-image: url('../assets/bg-test-size.png');
+    background-image: url('../assets/background-aquarium-v1.2.png');
     background-size: 100% auto;
 
     /* daria w3 */
@@ -71,6 +71,7 @@ mark8 {
     /* color: white; */
     /* text-align: center; */
     /* display: table; */
+    background-color: rgba(21, 139, 207, 0.5);
 }
 
 .aqua-div {
@@ -80,23 +81,26 @@ mark8 {
 }
 
 .green-body {
-    /* background-image: url('../assets/background-aquarium-v1.1.png'); */
-    /* background-size: 100% auto; */
+    background-image: url('../assets/background-greenhouse-v2.png');
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-color: rgba(14, 134, 32, 0.766);
 
 }
 
 .green-div {
-    background-color: rgba(24, 199, 59, 0.53);
+    background-color: rgba(24, 199, 59, 0.66);
     border-radius: 15px;
     padding: 15px
 }
 
 .farm-body {
-    /* background-image: url('../assets/background-aquarium-v1.1.png'); */
-    /* background-size: 100% auto; */
+    background-image: url('../assets/background-farm-v1.png');
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-color: rgba(134, 112, 14, 0.766);
-
 }
 
 .farm-div {
@@ -119,10 +123,24 @@ mark8 {
 }
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  /* border: 3px solid green;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* border: 3px solid green;  */
 }
 
+.centerfrm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    /* border: 3px solid green;  */
+}
+
+.map-body {
+    background-image: url('../assets/map-v3.png');
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

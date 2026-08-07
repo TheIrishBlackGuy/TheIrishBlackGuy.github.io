@@ -18,7 +18,7 @@ function checkInput2() {
 }
 function checkInput3() {
   var userN = document.getElementById('username3').value;
-  if (userN === "bruce" || userN === "Bruce" || userN === "BRUCE") {
+  if (userN === "jaws" || userN === "Jaws" || userN === "JAWS") {
     document.location = 'solved-aqua.html';
   } else alert("Wrong key. Try again");
 }

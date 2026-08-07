@@ -17,8 +17,10 @@
 
     <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script type="text/javascript" src="css/overlaypopup.js"> </script>
-    <script language="javascript" type="text/javascript" src="stuff.js"></script>
+    <!-- <script type="text/javascript" src="css/overlaypopup.js"> </script> -->
+    <!-- <script language="javascript" type="text/javascript" src="stuff.js"></script> -->
+    <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./js/green.js"></script>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -43,100 +45,134 @@
         <br><br>
 
         <div class="row section">
+            <div class="five columns" style="text-align: center;">
 
-            <div class="five columns">
+                <div class="green-div"><a href="map.html">
+                        <h1><b>Back to map</b>
+                            <h1>
+                    </a>
+                </div><br>
+                <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
                 <div class="green-div">
-                    <h2 style="text-align: center;"><a href="map.html"><b>Return to Map</b></a></h2><br>
-                    <h3 style="text-align: center;"> Welcome to the Greenhouse Habitat<br>
-                        <!-- Jenica's logic puzzle will be here</h3> -->
-                    </h3>
-                    <h2 style="text-align: center;"><b>How to Play:</b></h2>
-                    <h4>- - There is a specific order the animals are to be placed in.<br>
-                        - - Each statement points you closer to the order.<br>
-                    </h4>
+                    <p>
+                        Hi. Here in <b>The Greenhouse</b>, all the critters are wandering all over the place. Would you
+                        mind giving me a hand with putting things back <b>in order</b>? Pretty sure there are <b>some
+                            statements</b> around that can help assist you in learning which <b>color</b> their
+                        <b>cages</b> are. They are very picky in here. So you have to make sure you put them <b>in the
+                            correct order</b>.
+                    </p>
+                    <p style="font-size :125%;">
+                        The animals to watch out for are : <br>
+                        <b>Beetle</b> - - <b>Butterfly</b> - - <b>Dragonfly</b> - - <b>Roly-poly</b><br>
+                        <b>Scorpion</b> - - <b>Snail</b> - - <b>Spider</b> - - <b>Worm</b>
+                    </p>
                 </div>
                 <br>
-                <div style="text-align: center;" class="green-div">
-                    <h4><b>Animal Key:</b><br></h4>
-                    <h5>
-                        <b>Beetle</b> -- <b>Butterfly</b> -- <b>Dragonfly</b> -- <b>Roly-poly</b><br>
-                        <b>Scorpion</b> -- <b>Snail</b> -- <b>Spider</b> -- <b>Worm</b>
-                    </h5>
+                <!-- <div class="aqua-div">john dill sprites, flavor text, and lore goes here</div> -->
+                <div class="green-div">john dill sprites, flavor text, and lore goes here
+                    <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="./assets/jd-default.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-happy.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-blank.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-annoyed.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-neutral-look-away.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-stressed.png" width="50%">
+
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) { myIndex = 1 }
+                                x[myIndex - 1].style.display = "block";
+                                setTimeout(carousel, 2000); // Change image every 2 seconds
+                            }
+                        </script>
+                    </div>
+
+
                 </div>
+
             </div>
 
             <div class="seven columns">
-                <div>
-                    <h5 class="green-div">
-                        - - <b>Roly-polies</b> are right underneath a creature whose <b>young live
-                            underwater</b>.<br>
-                        - - <b>Orange</b> and <b>Black</b> can be <b>venomous</b>.<br>
-                        - - The <b>snail</b> is directly above an insect that primarily <b>drinks liquid</b> and can
-                        also
-                        <b>pollinate</b>.<br>
-                        - - <b>Blue</b> and <b>Purple</b> are insects that predominantly <b>fly</b> and have <b>six
-                            legs</b>.<br>
-                        - - The <b>beetle</b> is right above a creature that are famously known to <b>live in dry
-                            areas</b>
-                        like deserts.<br>
-                        - - <b>Yellow</b> and <b>Green</b> are <b>detritivores</b>, a creature that can eat <b>decaying
-                            plant</b> and other <b>organic matter</b>.<br>
-                    </h5>
-                </div>
-                <div style="text-align: center;" class="green-div">
-                    <h4><br><b>Order:</b><br></h4>
-                    <h5>
-                        <b>
-                            <mark1>1. RED</mark1>
-                        </b> -- <b>
-                            <mark2>2. ORANGE</mark2>
-                        </b> -- <b>
-                            <mark3>3. YELLOW</mark3>
-                        </b> -- <b>
-                            <mark4>4. GREEN</mark4>
-                        </b><br>
-                        <b>
-                            <mark5>5. BLUE</mark5>
-                        </b> -- <b>
-                            <mark6>6. PURPLE</mark6>
-                        </b> -- <b>
-                            <mark7>7. PINK</mark7>
-                        </b> -- <b>
-                            <mark8>8. BLACK</mark8>
-                        </b>
-                    </h5>
-                </div>
+                <p class="green-div" style="font-size: 125%;">
+                    - - <b>Roly-polies</b> are right underneath a creature whose <b>young live underwater</b>.<br>
+                    - - <b>Orange</b> and <b>Black</b> can be <b>venomous</b>.<br>
+                    - - The <b>Snail</b> is directly above an insect that primarily <b>drinks liquid</b> and can also
+                    <b>pollinate</b>.<br>
+                    - - <b>Blue</b> and <b>Purple</b> are insects that predominantly <b>fly</b> and have <b>six
+                        legs</b>.<br>
+                    - - The <b>Beetle</b> is right above a creature that are known to <b>live in dry areas</b> like
+                    deserts.<br>
+                    - - <b>Yellow</b> and <b>Green</b> are <b>detritivores</b>, a creature that can eat <b>decaying
+                        plant</b> and other <b>organic matter</b>.<br>
+                    - - <b>Black</b> can create a <b>fluid</b> that they use to <b>build</b> with.<br>
+                </p>
+                <!-- <div style="text-align: center;" class="green-div">
+                    <form action="/action_page.php" style="font-size :150%;"><br>
+                        <label for="fname">1. <input type="text" id="fname" name="fname"> -
+                            <mark1>RED
+                            </mark1>
+                        </label>
+                        <label for="fname">2. <input style="text-align: center;" type="text" id="fname" name="fname"> -
+                            <mark2>
+                                ORANGE</mark2>
+                        </label>
+                        <label for="fname">3. <input style="text-align: center;" type="text" id="fname" name="fname"> -
+                            <mark3>
+                                YELLOW</mark3>
+                        </label>
+                        <label for="fname">4. <input style="text-align: center;" type="text" id="fname" name="fname"> -
+                            <mark4>GREEN
+                            </mark4>
+                        </label>
+                        <label for="fname">5. <input style="text-align: center;" type="text" id="fname" name="fname"> -
+                            <mark5>BLUE
+                            </mark5>
+                        </label>
+                        <label for="fname">6. <input style="text-align: center;" type="text" id="fname" name="fname"> -
+                            <mark6>
+                                PURPLE</mark6>
+                        </label>
+                        <label for="fname">7. <input style="text-align: center;" type="text" id="fname" name="fname"> -
+                            <mark7>PINK
+                            </mark7>
+                        </label>
+                        <label for="fname">8. <input style="text-align: center;" type="text" id="fname" name="fname"> -
+                            <mark8>BLACK
+                            </mark8>
+                        </label>
+                    </form>
+                </div> -->
+
+                <div style="text-align: center; font-size: 125%;" class="green-div" >
+                    <b>1. <input type="text" id='username' style="background-color: orangered; opacity: 80%" placeholder="                Animal?"><br>
+                    <b>2. <input type="text" id='username1' style="background-color: orange; opacity: 80%" placeholder="                Animal?"><br>
+                    <b>3. <input type="text" id='username2' style="background-color: yellow; opacity: 80%" placeholder="                Animal?"><br>
+                    <b>4. <input type="text" id='username3' style="background-color: darkgreen; opacity: 80%" placeholder="                Animal?"><br>
+                    <b>5. <input type="text" id='username4' style="background-color: blue; opacity: 80%" placeholder="                Animal?"><br>
+                    <b>6. <input type="text" id='username5' style="background-color: darkorchid; opacity: 80%" placeholder="                Animal?"><br>
+                    <b>7. <input type="text" id='username6' style="background-color: magenta; opacity: 80%" placeholder="                Animal?"><br>
+                    <b>8. <input type="text" id='username7' style="background-color: black; opacity: 80%" placeholder="                Animal?"><br>
+                
+                    <div style="text-align: center; font-size: 125%;"   type="button"
+                        id='buttonLogin' onclick="checkInput()">
+                        <button>
+                            <h4 style="color: black"><b>Submit</b></h4>
+                        </button>
+                    </div>
+</div>
             </div>
-
         </div>
-
     </div>
 
-    <hr>
-
-    <div style="text-align: center;" class="green-div">
-        <h1>The Greenhouse's Logic Puzzle </h1>
-
-        <form action="/action_page.php" style="font-size :200%;">
-            <label for="fname">1. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark1>RED
-                </mark1></label>
-            <label for="fname">2. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark2>
-                    ORANGE</mark2></label>
-            <label for="fname">3. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark3>
-                    YELLOW</mark3></label>
-            <label for="fname">4. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark4>GREEN
-                </mark4></label>
-            <label for="fname">5. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark5>BLUE
-                </mark5></label>
-            <label for="fname">6. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark6>
-                    PURPLE</mark6></label>
-            <label for="fname">7. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark7>PINK
-                </mark7></label>
-            <label for="fname">8. <input style="text-align: center;" type="text" id="fname" name="fname"> - <mark8>BLACK
-                </mark8></label>
-        </form>
-    </div>
-    </div>
 
     <!-- end of MAIN container /////////////////-->
 

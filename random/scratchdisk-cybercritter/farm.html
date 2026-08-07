@@ -18,7 +18,9 @@
     <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script type="text/javascript" src="css/overlaypopup.js"> </script>
-    <script language="javascript" type="text/javascript" src="stuff.js"></script>
+
+    <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="./js/farm.js"></script> -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -35,7 +37,7 @@
 
 </head>
 
-<body  class="farm-body">
+<body class="farm-body">
     <br>
 
     <div class="container">
@@ -43,35 +45,140 @@
         <br><br>
 
         <div class="row section">
+            <div class="five columns" style="text-align: center;">
 
-            <div class="six columns">
-                <div class="farm-div">
-                    <h2 style="text-align: center;"><a href="map.html"><b>Return to Map</b></a></h2><br>
-                    <h3 style="text-align: center;"> Welcome to the Farm Habitat<br>
-                        <!-- Daria's habitat puzzle will be here</h3> -->
-                    </h3>
+                <div class="farm-div"><a href="map.html">
+                        <h1><b>Back to map</b>
+                            <h1>
+                    </a>
+                </div><br>
+                <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
+                <div class="farm-div" style="font-size: 125%;">
+                    <p>
+                        Howdy. Welcome to <b>The Farmyard</b>, where 'most of the animals wander freely but right now,
+                        they seem a bit more territorial than usual. I think we'll need to <b>restrict each one</b> of
+                        them to
+                        <b>their own corresponding color cages</b>. Let's make sure that <b>none are in direct line of sight</b> with each
+                        other and maybe
+                        also <b>not touching</b> each other in <b>any direction</b>. <br>
+                    </p>
+
+
+                    <div class="row section">
+
+                        <b>
+                            <div class="three columns" style="text-align: center; transform: translate(18%);">
+                                <div id="mydiv">
+                                    <div id="mydivheader" class="sheep">sheep</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                                <br>
+
+                                <div id="mydiv1">
+                                    <div id="mydivheader1" class="cow">cow</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+
+                            <div class="three columns" style="text-align: center; transform: translate(18%);">
+                                <div id="mydiv2">
+                                    <div id="mydivheader2" class="pig">pig</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                                <br>
+
+                                <div id="mydiv3">
+                                    <div id="mydivheader3" class="chicken">chicken</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+
+                            <div class="three columns" style="text-align: center; transform: translate(18%);">
+                                <div id="mydiv4">
+                                    <div id="mydivheader4" class="goat">goat</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                                <br>
+
+                                <div id="mydiv5">
+                                    <div id="mydivheader5" class="peacock">peacock</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+
+                            <div class="three columns" style="text-align: center; transform: translate(18%);">
+                                <div id="mydiv6">
+                                    <div id="mydivheader6" class="horse">horse</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                                <br>
+
+                                <div id="mydiv7">
+                                    <div id="mydivheader7" class="rabbit">rabbit</div>
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+                        </b>
+
+                    </div>
+                    <br>
+
                 </div>
+
                 <br>
-                <div class="farm-div">
-                    <h2 style="text-align: center;"><b>How to Play:</b></h2>
-                    <h4>-- Only 1 animal can be placed in each zone.<br>
-                        -- An animal cannot have another animal<br>
-                        ---- in the same row,<br>
-                        ---- in the same column,<br>
-                        ---- or in any box around the animal, horizontally, vertically, or diagonally.<br>
-                    </h4>
+                <!-- <div class="aqua-div">john dill sprites, flavor text, and lore goes here</div> -->
+                <div class="farm-div">john dill sprites, flavor text, and lore goes here
+                    <div class="w3-content w3-section" style="max-width:500px">
+                        <img class="mySlides" src="./assets/jd-default.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-happy.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-blank.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-annoyed.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-neutral-look-away.png" width="50%">
+                        <img class="mySlides" src="./assets/jd-stressed.png" width="50%">
+
+                        <script>
+                            var myIndex = 0;
+                            carousel();
+
+                            function carousel() {
+                                var i;
+                                var x = document.getElementsByClassName("mySlides");
+                                for (i = 0; i < x.length; i++) {
+                                    x[i].style.display = "none";
+                                }
+                                myIndex++;
+                                if (myIndex > x.length) { myIndex = 1 }
+                                x[myIndex - 1].style.display = "block";
+                                setTimeout(carousel, 2000); // Change image every 2 seconds
+                            }
+                        </script>
+                    </div>
                 </div>
 
             </div>
 
-            <div class="six columns" style="text-align: center;">
-                <br>
+            <div class="seven columns" style="text-align: center;">
                 <div class="farm-div">
                     <img src="assets/daria-puzzle-v1.png" alt="daria">
+                    <br>
+                    <h5><b>Which row<i>(top(1) to bottom(8))</i> and column<i>(left(1) to
+                            right(8))</i> is the cow in?</b><h5>
+                    <div style="text-align: center; font-size: 125%;" type="button" id='buttonLogin'
+                        onclick="checkInput()">
+                        <input size="30" type="text" id='username' placeholder="Example : Row 1, Column 1"><br><button>
+                            <h4 style="color: black"><b>Submit</b></h4>
+                        </button>
+                    </div>
                 </div>
             </div>
-
-
         </div>
 
     </div>
