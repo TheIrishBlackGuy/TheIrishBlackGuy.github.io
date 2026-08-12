@@ -1,0 +1,46 @@
+[ScratchDisk-CyberCritter](https://theirishblackguy.github.io/random/scratchdisk-cybercritter/map.html)
+Based on First Friday:
+//- previous inputs hidden/unavailable 
+//    - <input autocomplete="off">
+- better instructions
+    - help page with JD
+    - much simpler variants of puzzle
+- newer page layout
+    - <six column> scratch disk present logo
+    - <six column> clickable map
+    - back to map, change <h1> to <h3>
+    - <map><area shape="poly"> to make image clickable
+    - <nav bar> practice/JD help center, greenhouse, safari, farm, aquarium
+- John Dill images paired with text
+    - mess with <div><img>[text]</div>
+        - this doesn't exactly work but almost
+- Auto adjust BG
+    - daria's code above
+        - breaks aqua
+- Cyber critter final
+    - all 4 habitat key words = digizoo, the The Archivist terminal input
+
+- Greenhouse
+//    - input text white
+    - list out animal options better
+    - have John Dill cycling thru facts of the animals
+    - hover over certain words to define stuff
+- Safari
+    - 3 levels
+    - BG sky change (Jenica)
+    - end of each level, find animal
+    - end of puzzle, input the animals you saw
+    - back to spawn on each page
+    - change section/level system
+    - hover over button, button lights up
+- Farm
+    - auto adjust puzzle <img> to div width
+    - better explanation
+        - horz, vert, diag
+//    - fix <input> that "wrong answer" doesn't appear when you click <input>
+//    - <input> for row and <input> for column
+- Aquarium
+    - use the click-on-grid
+        - binary click on/off
+    - can you change color of pen in the code w/o affecting other color?
+    - any animal keyword input gives the aquarium keyword

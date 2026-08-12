@@ -1,7 +1,32 @@
 function checkInput() {
     var userN = document.getElementById('username').value;
-    if (userN === "beetle" || userN === "Beetle" || userN === "BEETLE") {
-        document.location = 'solved-green.html';
+    if (userN === "beetle" || userN === "Beetle" || userN === "BEETLE") {        
+        var userN1 = document.getElementById('username1').value;
+        if (userN1 === "scorpion" || userN1 === "Scorpion" || userN1 === "SCORPION") {
+            var userN2 = document.getElementById('username2').value;
+            if (userN2 === "worm" || userN2 === "Worm" || userN2 === "WORM") {    
+                var userN3 = document.getElementById('username3').value;
+                if (userN3 === "snail" || userN3 === "Snail" || userN3 === "SNAIL") {
+                    var userN4 = document.getElementById('username4').value;
+                    if (userN4 === "butterfly" || userN4 === "Butterfly" || userN4 === "BUTTERFLY") {
+                        var userN5 = document.getElementById('username5').value;
+                        if (userN5 === "dragonfly" || userN5 === "Dragonfly" || userN5 === "DRAGONFLY") {    
+                            var userN6 = document.getElementById('username6').value;
+                            if (userN6 === "roly-poly" || userN6 === "Roly-poly" || userN6 === "Roly-Poly" || userN6 === "ROLY-POLY" || userN6 === "rolypoly" || userN6 === "Rolypoly" || userN6 === "RolyPoly" || userN6 === "ROLYPOLY") {
+                                var userN7 = document.getElementById('username7').value;
+                                if (userN7 === "spider" || userN7 === "Spider" || userN7 === "SPIDER") {
+            
+            
+            document.location = 'solved-green.html';
+
+
+                                } else alert("Wrong order. Try again");
+                            } else alert("Wrong order. Try again");
+                        } else alert("Wrong order. Try again");
+                    } else alert("Wrong order. Try again");
+                } else alert("Wrong order. Try again");
+            } else alert("Wrong order. Try again");
+        } else alert("Wrong order. Try again");
     } else alert("Wrong order. Try again");
 }
 function checkInput1() {
@@ -30,7 +55,7 @@ function checkInput4() {
 }
 function checkInput5() {
     var userN = document.getElementById('username5').value;
-    if (userN === "dragonfly " || userN === "Dragonfly " || userN === "DRAGONFLY ") {
+    if (userN === "dragonfly" || userN === "Dragonfly" || userN === "DRAGONFLY") {
         document.location = 'solved-green.html';
     } else alert("Wrong order. Try again");
 }
@@ -46,3 +71,15 @@ function checkInput7() {
         document.location = 'solved-green.html';
     } else alert("Wrong order. Try again");
 }
+
+// function finalCheck(){
+//     checkInput();
+//     checkInput1();
+//     checkInput2();
+//     checkInput3();
+//     checkInput4();
+//     checkInput5();
+//     checkInput6();
+//     checkInput7();
+    
+// }

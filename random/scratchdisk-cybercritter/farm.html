@@ -48,8 +48,8 @@
             <div class="five columns" style="text-align: center;">
 
                 <div class="farm-div"><a href="map.html">
-                        <h1><b>Back to map</b>
-                            <h1>
+                        <h3><b>Back to map</b>
+                            <h3>
                     </a>
                 </div><br>
                 <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
@@ -58,7 +58,8 @@
                         Howdy. Welcome to <b>The Farmyard</b>, where 'most of the animals wander freely but right now,
                         they seem a bit more territorial than usual. I think we'll need to <b>restrict each one</b> of
                         them to
-                        <b>their own corresponding color cages</b>. Let's make sure that <b>none are in direct line of sight</b> with each
+                        <b>their own corresponding color cages</b>. Let's make sure that <b>none are in direct line of
+                            sight</b> with each
                         other and maybe
                         also <b>not touching</b> each other in <b>any direction</b>. <br>
                     </p>
@@ -166,16 +167,26 @@
             </div>
 
             <div class="seven columns" style="text-align: center;">
-                <div class="farm-div">
+                <div    class="farm-div">
                     <img src="assets/daria-puzzle-v1.png" alt="daria">
                     <br>
                     <h5><b>Which row<i>(top(1) to bottom(8))</i> and column<i>(left(1) to
-                            right(8))</i> is the cow in?</b><h5>
-                    <div style="text-align: center; font-size: 125%;" type="button" id='buttonLogin'
-                        onclick="checkInput()">
-                        <input size="30" type="text" id='username' placeholder="Example : Row 1, Column 1"><br><button>
-                            <h4 style="color: black"><b>Submit</b></h4>
-                        </button>
+                                right(8))</i> is the cow in?</b></h5>
+                    <div style="text-align: center; font-size: 125%; color: white; font: bold;" class="green-div">
+                        <b>Row <input type="text" id='username'
+                                style="background-color: orangered; opacity: 80%; text-shadow: 0px 0px 6px black"
+                                placeholder="                Animal?" autocomplete="off"><br>
+                            <b>Column <input type="text" id='username1'
+                                    style="background-color: orange; opacity: 80%; text-shadow: 0px 0px 6px black"
+                                    placeholder="                Animal?" autocomplete="off"><br>
+
+
+                                <div style="text-align: center; font-size: 125%;" type="button" id='buttonLogin'
+                                    onclick="checkInput()">
+                                    <button>
+                                        <h4 style="color: black"><b>Submit</b></h4>
+                                    </button>
+                                </div>
                     </div>
                 </div>
             </div>
