@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background: #1d1d1d;
+            color: rgb(15, 184, 29);
+            font-family: monospace;
+            font-size: 50px;
+            font-style: bold;
+        }
+
+        .time {
+            font-size: 100px
+        }
+
+        .code {
+            opacity: 0.5;
+        }
+    </style>
+    <script>
+        function getTime() {
+            const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+            const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+            const d = new Date()
+            return `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]} ${d.getYear() + 1900}`
+        }
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('txt').innerHTML =
+                h + ":" + m + ":" + s;
+            document.getElementById('date').innerHTML =
+                getTime();
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+            if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
+            return i;
+        }
+    </script>
+</head>
+
+<body onload="startTime()">
+
+    <span class="code">return startTime();</span>
+    <br />
+    <span class="date"><span id="date"></span></span>
+    <br />
+    <span class="time">UTC+0
+        <span id="txt"></span>
+    </span>
+
+
+</body>
+
+</html>

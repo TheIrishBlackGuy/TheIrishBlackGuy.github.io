@@ -1,7 +1,7 @@
 [ScratchDisk-CyberCritter](https://theirishblackguy.github.io/random/scratchdisk-cybercritter/map.html)
 Based on First Friday:
-//- previous inputs hidden/unavailable 
-//    - <input autocomplete="off">
+/X/- previous inputs hidden/unavailable 
+/X/    - <input autocomplete="off">
 - better instructions
     - help page with JD
     - much simpler variants of puzzle
@@ -21,9 +21,9 @@ Based on First Friday:
     - all 4 habitat key words = digizoo, the The Archivist terminal input
 
 - Greenhouse
-//    - input text white
+/X/    - input text white
     - list out animal options better
-    - have John Dill cycling thru facts of the animals
+/X/    - have John Dill cycling thru facts of the animals
     - hover over certain words to define stuff
 - Safari
     - 3 levels
@@ -37,8 +37,8 @@ Based on First Friday:
     - auto adjust puzzle <img> to div width
     - better explanation
         - horz, vert, diag
-//    - fix <input> that "wrong answer" doesn't appear when you click <input>
-//    - <input> for row and <input> for column
+/X/    - fix <input> that "wrong answer" doesn't appear when you click <input>
+/X/    - <input> for row and <input> for column
 - Aquarium
     - use the click-on-grid
         - binary click on/off

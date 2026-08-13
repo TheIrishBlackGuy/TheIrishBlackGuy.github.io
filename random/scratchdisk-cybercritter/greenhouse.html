@@ -35,9 +35,21 @@
     <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
 
+    <script>
+        var timeElapsed = 0;
+        var myTimer = 0;
+
+        function start() {
+            myTimer = setInterval(function () {
+                timeElapsed += 1;
+                document.getElementById("time").innerText = timeElapsed;
+            }, 1000);
+        }
+    </script>
+
 </head>
 
-<body class="green-body">
+<body class="green-body" onload="start()">
     <br>
 
     <div class="container">
@@ -48,9 +60,9 @@
             <div class="five columns" style="text-align: center;">
 
                 <div class="green-div"><a href="map.html">
-                        <h3><b>Back to map</b>
-                            <h3>
-                    </a>
+                        <h3><b>Back to map</b></h3></a>
+                        <p style="font-size: 200%;">You've taken <span id="time"> </span> seconds so far
+                        </p>
                 </div><br>
                 <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
                 <div class="green-div">

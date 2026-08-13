@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stopwatch</title>
+    <script>
+        var timeElapsed = 0;
+        var myTimer = 0;
+
+        function start() {
+            myTimer = setInterval(function () {
+                timeElapsed += 1;
+                document.getElementById("time").innerText = timeElapsed;
+            }, 1000);
+        }
+
+        // function stop() {
+        //     clearInterval(myTimer);
+        // }
+
+        // function reset() {
+        //     timeElapsed = 0;
+        //     clearInterval(myTimer);
+        //     document.getElementById("time").innerHTML = timeElapsed;
+        // }
+    </script>
+    
+</head>
+
+<body onload="start()">
+    <div><h1 style="font-size: 500%;">You've taken <span id="time"> </span> seconds so far</h1></div>
+    <!-- <input type="button" id="startTimer" value="Start Timer" onclick="start();"><br /> -->
+    <!-- <input type="button" id="stopTimer" value="Stop Timer" onclick="stop();"><br /> -->
+    <!-- <input type="button" id="resetTimer" value="Reset Timer" onclick="reset();"><br /> -->
+    <!-- <script src="timer.js"></script> -->
+</body>
+
+</html>
