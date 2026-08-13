@@ -11,9 +11,9 @@ Based on First Friday:
     - back to map, change <h1> to <h3>
     - <map><area shape="poly"> to make image clickable
     - <nav bar> practice/JD help center, greenhouse, safari, farm, aquarium
-- John Dill images paired with text
-    - mess with <div><img>[text]</div>
-        - this doesn't exactly work but almost
+/X/- John Dill images paired with text
+/X/    - mess with <div><img>[text]</div>
+/X/        - this doesn't exactly work but almost
 - Auto adjust BG
     - daria's code above
         - breaks aqua
@@ -34,9 +34,9 @@ Based on First Friday:
     - change section/level system
     - hover over button, button lights up
 - Farm
-    - auto adjust puzzle <img> to div width
-    - better explanation
-        - horz, vert, diag
+/X/    - auto adjust puzzle <img> to div width
+/X/    - better explanation
+/X/        - horz, vert, diag
 /X/    - fix <input> that "wrong answer" doesn't appear when you click <input>
 /X/    - <input> for row and <input> for column
 - Aquarium

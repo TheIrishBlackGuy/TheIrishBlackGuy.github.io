@@ -8,7 +8,7 @@ a:hover {
 
 #mydiv {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -17,7 +17,7 @@ a:hover {
 #mydivheader {
     padding: 10px;
     cursor: move;
-    z-index: 10;
+    z-index: 25;
     background-color: rgb(255, 150, 1);
     color: #fff;
     /* width: 75px; */
@@ -27,7 +27,7 @@ a:hover {
 
 #mydiv1 {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -36,7 +36,7 @@ a:hover {
 #mydivheader1 {
     padding: 10px;
     cursor: move;
-    z-index: 10;
+    z-index: 25;
     background-color: rgb(28, 176, 246);
     color: #fff;
     /* width: 75px; */
@@ -46,7 +46,7 @@ a:hover {
 
 #mydiv2 {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -55,7 +55,7 @@ a:hover {
 #mydivheader2 {
     padding: 10px;
     cursor: move;
-    z-index: 10;
+    z-index: 25;
     background-color: rgb(255, 159, 243);
     color: #fff;
     /* width: 75px; */
@@ -65,7 +65,7 @@ a:hover {
 
 #mydiv3 {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -74,7 +74,7 @@ a:hover {
 #mydivheader3 {
     padding: 10px;
     cursor: move;
-    z-index: 10;
+    z-index: 25;
     background-color: rgb(255, 75, 75);
     color: #fff;
     /* width: 75px; */
@@ -84,7 +84,7 @@ a:hover {
 
 #mydiv4 {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -93,8 +93,8 @@ a:hover {
 #mydivheader4 {
     padding: 10px;
     cursor: move;
-    z-index: 10;
-    background-color: rgb(251,229,109);
+    z-index: 25;
+    background-color: rgb(251, 229, 109);
     color: #000;
     /* width: 75px; */
     /* height: 45px; */
@@ -103,7 +103,7 @@ a:hover {
 
 #mydiv5 {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -112,8 +112,8 @@ a:hover {
 #mydivheader5 {
     padding: 10px;
     cursor: move;
-    z-index: 10;
-    background-color: rgb(88,204,0);
+    z-index: 25;
+    background-color: rgb(88, 204, 0);
     color: #000;
     /* width: 75px; */
     /* height: 45px; */
@@ -122,7 +122,7 @@ a:hover {
 
 #mydiv6 {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -131,8 +131,8 @@ a:hover {
 #mydivheader6 {
     padding: 10px;
     cursor: move;
-    z-index: 10;
-    background-color: rgb(113,88,226);
+    z-index: 25;
+    background-color: rgb(113, 88, 226);
     color: #fff;
     /* width: 75px; */
     /* height: 45px; */
@@ -141,7 +141,7 @@ a:hover {
 
 #mydiv7 {
     position: absolute;
-    z-index: 9;
+    z-index: 25;
     /* background-color: #f1f1f1; */
     text-align: center;
     /* border: 1px solid #d3d3d3; */
@@ -150,81 +150,1075 @@ a:hover {
 #mydivheader7 {
     padding: 10px;
     cursor: move;
-    z-index: 10;
-    background-color: rgb(28,122,61);
+    z-index: 25;
+    background-color: rgb(28, 122, 61);
     color: #fff;
     /* width: 75px; */
     /* height: 45px; */
     border-radius: 25px;
 }
 
-.sheep {
-    /* background-color:bisque;
-    width: 200px;
-    height: 175px;
-    border-radius: 25px;
-    margin: 50px auto;
-    transform: translate(0px, 25px); */
+#mydiv8 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
 }
 
-.cow {
-    /* background-color:bisque;
-    width: 200px;
-    height: 175px;
+#mydivheader8 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
-    margin: 50px auto;
-    transform: translate(0px, 25px); */
 }
 
-.pig {
-    /* background-color:bisque;
-    width: 200px;
-    height: 175px;
-    border-radius: 25px;
-    margin: 50px auto;
-    transform: translate(0px, 25px); */
+#mydiv9 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
 }
 
-.chicken {
-    /* background-color:bisque;
-    width: 200px;
-    height: 175px;
+#mydivheader9 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
-    margin: 50px auto;
-    transform: translate(0px, 25px); */
 }
 
-.goat {
-    /* background-color:bisque;
-    width: 200px;
-    height: 175px;
-    border-radius: 25px;
-    margin: 50px auto;
-    transform: translate(0px, 25px); */
+#mydiv10 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
 }
 
-.peacock {
-    /* background-color:bisque;
-    width: 200px;
-    height: 175px;
+#mydivheader10 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
-    margin: 50px auto;
-    transform: translate(0px, 25px); */
 }
 
-.horse {
-    /* background-color:red; */
-    /* width: 100px; */
-    /* height: 100px; */
-    /* border-radius: 100px; */
-    /* margin: 50px auto; */
+#mydiv11 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
 }
 
-.rabbit {
-    /* background-color:bisque;
-    width: 200px;
-    height: 175px;
+#mydivheader11 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
     border-radius: 25px;
-    margin: 50px auto;
-    transform: translate(0px, 25px); */
 }
+
+#mydiv12 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader12 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv13 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader13 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv14 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader14 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv15 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader15 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv16 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader16 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv17 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader17 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv18 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader18 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv19 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader19 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv20 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader20 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv21 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader21 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv22 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader22 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv23 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader23 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv24 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader24 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv25 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader25 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv26 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader26 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv27 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader27 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv28 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader28 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv29 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader29 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv30 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader30 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv31 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader31 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv32 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader32 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv33 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader33 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv34 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader34 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv35 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader35 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv36 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader36 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv37 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader37 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv38 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader38 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv39 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader39 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv40 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader40 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv41 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader41 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv42 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader42 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv43 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader43 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv44 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader44 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv45 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader45 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv46 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader46 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv47 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader47 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv48 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader48 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv49 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader49 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv50 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader50 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv51 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader51 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv52 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader52 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv53 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader53 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv54 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader54 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv55 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader55 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv56 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader56 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv57 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader57 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv58 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader58 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv59 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader59 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv60 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader60 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv61 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader61 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv62 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader62 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+#mydiv63 {
+    position: absolute;
+    z-index: 25;
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    /* border: 1px solid #d3d3d3; */
+}
+
+#mydivheader63 {
+    padding: 5px;
+    cursor: move;
+    z-index: 25;
+    background-color: rgb(0, 0, 0);
+    color: #f40000;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+

@@ -35,9 +35,30 @@
     <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
 
+    <style>
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
+
+    <script>
+        var timeElapsed = 0;
+        var myTimer = 0;
+
+        function start() {
+            myTimer = setInterval(function () {
+                timeElapsed += 1;
+                document.getElementById("time").innerText = timeElapsed;
+            }, 1000);
+        }
+    </script>
+
+
 </head>
 
-<body class="farm-body">
+<body class="farm-body" onload="start()">
     <br>
 
     <div class="container">
@@ -48,25 +69,23 @@
             <div class="five columns" style="text-align: center;">
 
                 <div class="farm-div"><a href="map.html">
-                        <h3><b>Back to map</b>
-                            <h3>
+                        <h3><b>Back to map</b></h3>
                     </a>
+                    <p style="font-size: 200%;">You've taken <span id="time"> </span> seconds so far
+                    </p>
                 </div><br>
                 <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
                 <div class="farm-div" style="font-size: 125%;">
                     <p>
-                        Howdy. Welcome to <b>The Farmyard</b>, where 'most of the animals wander freely but right now,
+                        Howdy. Welcome to <b>The Farmyard</b>, where most of the animals wander freely but right now,
                         they seem a bit more territorial than usual. I think we'll need to <b>restrict each one</b> of
-                        them to
-                        <b>their own corresponding color cages</b>. Let's make sure that <b>none are in direct line of
-                            sight</b> with each
-                        other and maybe
-                        also <b>not touching</b> each other in <b>any direction</b>. <br>
+                        them to <b>their own corresponding, color cages</b>. Let's make sure that <b>none are in direct
+                            line of sight</b> with each other and maybe don't let them within <b>one space</b> of each
+                        other <b>up or down</b>, <b>left or right</b>, or <b>diagonally</b>. <br>
                     </p>
 
 
-                    <div class="row section">
-
+                    <div class="row section" style="z-index: -25;">
                         <b>
                             <div class="three columns" style="text-align: center; transform: translate(18%);">
                                 <div id="mydiv">
@@ -128,67 +147,332 @@
                                 <br>
                             </div>
                         </b>
-
                     </div>
+
+
+                    <div>
+                        <br>
+                        Here are some markers to help you see where the animals can't go.
+                        <br>
+                        <div style="text-align: center; transform: translate(45%);">
+                            <div id="mydiv8">
+                                <div id="mydivheader8"><b>X</b></div>
+                            </div>
+                            <div id="mydiv9">
+                                <div id="mydivheader9"><b>X</b></div>
+                            </div>
+                            <div id="mydiv10">
+                                <div id="mydivheader10"><b>X</b></div>
+                            </div>
+                            <div id="mydiv11">
+                                <div id="mydivheader11"><b>X</b></div>
+                            </div>
+                            <div id="mydiv12">
+                                <div id="mydivheader12"><b>X</b></div>
+                            </div>
+                            <div id="mydiv13">
+                                <div id="mydivheader13"><b>X</b></div>
+                            </div>
+                            <div id="mydiv14">
+                                <div id="mydivheader14"><b>X</b></div>
+                            </div>
+                            <div id="mydiv15">
+                                <div id="mydivheader15"><b>X</b></div>
+                            </div>
+                            <div id="mydiv16">
+                                <div id="mydivheader16"><b>X</b></div>
+                            </div>
+                            <div id="mydiv17">
+                                <div id="mydivheader17"><b>X</b></div>
+                            </div>
+                            <div id="mydiv18">
+                                <div id="mydivheader18"><b>X</b></div>
+                            </div>
+                            <div id="mydiv19">
+                                <div id="mydivheader19"><b>X</b></div>
+                            </div>
+                            <div id="mydiv20">
+                                <div id="mydivheader20"><b>X</b></div>
+                            </div>
+                            <div id="mydiv21">
+                                <div id="mydivheader21"><b>X</b></div>
+                            </div>
+                            <div id="mydiv22">
+                                <div id="mydivheader22"><b>X</b></div>
+                            </div>
+                            <div id="mydiv23">
+                                <div id="mydivheader23"><b>X</b></div>
+                            </div>
+                            <div id="mydiv24">
+                                <div id="mydivheader24"><b>X</b></div>
+                            </div>
+                            <div id="mydiv25">
+                                <div id="mydivheader25"><b>X</b></div>
+                            </div>
+                            <div id="mydiv26">
+                                <div id="mydivheader26"><b>X</b></div>
+                            </div>
+                            <div id="mydiv27">
+                                <div id="mydivheader27"><b>X</b></div>
+                            </div>
+                            <div id="mydiv28">
+                                <div id="mydivheader28"><b>X</b></div>
+                            </div>
+                            <div id="mydiv29">
+                                <div id="mydivheader29"><b>X</b></div>
+                            </div>
+                            <div id="mydiv30">
+                                <div id="mydivheader30"><b>X</b></div>
+                            </div>
+                            <div id="mydiv31">
+                                <div id="mydivheader31"><b>X</b></div>
+                            </div>
+                            <div id="mydiv32">
+                                <div id="mydivheader32"><b>X</b></div>
+                            </div>
+                            <div id="mydiv33">
+                                <div id="mydivheader33"><b>X</b></div>
+                            </div>
+                            <div id="mydiv34">
+                                <div id="mydivheader34"><b>X</b></div>
+                            </div>
+                            <div id="mydiv35">
+                                <div id="mydivheader35"><b>X</b></div>
+                            </div>
+                            <div id="mydiv36">
+                                <div id="mydivheader36"><b>X</b></div>
+                            </div>
+                            <div id="mydiv37">
+                                <div id="mydivheader37"><b>X</b></div>
+                            </div>
+                            <div id="mydiv38">
+                                <div id="mydivheader38"><b>X</b></div>
+                            </div>
+                            <div id="mydiv39">
+                                <div id="mydivheader39"><b>X</b></div>
+                            </div>
+                            <div id="mydiv40">
+                                <div id="mydivheader40"><b>X</b></div>
+                            </div>
+                            <div id="mydiv41">
+                                <div id="mydivheader41"><b>X</b></div>
+                            </div>
+                            <div id="mydiv42">
+                                <div id="mydivheader42"><b>X</b></div>
+                            </div>
+                            <div id="mydiv43">
+                                <div id="mydivheader43"><b>X</b></div>
+                            </div>
+                            <div id="mydiv44">
+                                <div id="mydivheader44"><b>X</b></div>
+                            </div>
+                            <div id="mydiv45">
+                                <div id="mydivheader45"><b>X</b></div>
+                            </div>
+                            <div id="mydiv46">
+                                <div id="mydivheader46"><b>X</b></div>
+                            </div>
+                            <div id="mydiv47">
+                                <div id="mydivheader47"><b>X</b></div>
+                            </div>
+                            <div id="mydiv48">
+                                <div id="mydivheader48"><b>X</b></div>
+                            </div>
+                            <div id="mydiv49">
+                                <div id="mydivheader49"><b>X</b></div>
+                            </div>
+                            <div id="mydiv50">
+                                <div id="mydivheader50"><b>X</b></div>
+                            </div>
+                            <div id="mydiv51">
+                                <div id="mydivheader51"><b>X</b></div>
+                            </div>
+                            <div id="mydiv52">
+                                <div id="mydivheader52"><b>X</b></div>
+                            </div>
+                            <div id="mydiv53">
+                                <div id="mydivheader53"><b>X</b></div>
+                            </div>
+                            <div id="mydiv54">
+                                <div id="mydivheader54"><b>X</b></div>
+                            </div>
+                            <div id="mydiv55">
+                                <div id="mydivheader55"><b>X</b></div>
+                            </div>
+                            <div id="mydiv56">
+                                <div id="mydivheader56"><b>X</b></div>
+                            </div>
+                            <div id="mydiv57">
+                                <div id="mydivheader57"><b>X</b></div>
+                            </div>
+                            <div id="mydiv58">
+                                <div id="mydivheader58"><b>X</b></div>
+                            </div>
+                            <div id="mydiv59">
+                                <div id="mydivheader59"><b>X</b></div>
+                            </div>
+                            <div id="mydiv60">
+                                <div id="mydivheader60"><b>X</b></div>
+                            </div>
+                            <div id="mydiv61">
+                                <div id="mydivheader61"><b>X</b></div>
+                            </div>
+                            <div id="mydiv62">
+                                <div id="mydivheader62"><b>X</b></div>
+                            </div>
+                            <div id="mydiv63">
+                                <div id="mydivheader63"><b>X</b></div>
+                            </div>
+                        </div>
+                        <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                    </div>
+                    <br>
                     <br>
 
                 </div>
 
                 <br>
                 <!-- <div class="aqua-div">john dill sprites, flavor text, and lore goes here</div> -->
-                <div class="farm-div">john dill sprites, flavor text, and lore goes here
-                    <div class="w3-content w3-section" style="max-width:500px">
-                        <img class="mySlides" src="./assets/jd-default.png" width="50%">
-                        <img class="mySlides" src="./assets/jd-happy.png" width="50%">
-                        <img class="mySlides" src="./assets/jd-blank.png" width="50%">
-                        <img class="mySlides" src="./assets/jd-annoyed.png" width="50%">
-                        <img class="mySlides" src="./assets/jd-neutral-look-away.png" width="50%">
-                        <img class="mySlides" src="./assets/jd-stressed.png" width="50%">
+                <div class="farm-div">
+                    <b>
+                        <div class="w3-content w3-section" style="max-width:500px">
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-default.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Did you know that cow are such good eaters that they require four stomachs just
+                                        to keep up with their appetite.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-happy.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        I love the chickens around here. I happen to 5 of my own back home. They each
+                                        have their own attitude.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-blank.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Goats are great escape artists. They can eat through most things, they can jump
+                                        pretty high, and they can scale sheer surfaces with ease.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-annoyed.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Many of the animals in here can truly stink up their pens. Have you seen how big
+                                        their poops can be?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-neutral-look-away.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Did you know that male peacocks are the more colorful of the two genders.
+                                        Females
+                                        are usually a dull brown while males are the very vibrant blue, yellow, and
+                                        green ones.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-stressed.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Taking care of all these animals can get pretty stressful if they go without
+                                        care or if you don't meet their needs.
+                                    </div>
+                                </div>
+                            </div>
 
-                        <script>
-                            var myIndex = 0;
-                            carousel();
+                            <script>
+                                var myIndex = 0;
+                                carousel();
 
-                            function carousel() {
-                                var i;
-                                var x = document.getElementsByClassName("mySlides");
-                                for (i = 0; i < x.length; i++) {
-                                    x[i].style.display = "none";
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) { myIndex = 1 }
+                                    x[myIndex - 1].style.display = "block";
+                                    setTimeout(carousel, 6000); // Change image every 2 seconds
                                 }
-                                myIndex++;
-                                if (myIndex > x.length) { myIndex = 1 }
-                                x[myIndex - 1].style.display = "block";
-                                setTimeout(carousel, 2000); // Change image every 2 seconds
-                            }
-                        </script>
-                    </div>
+                            </script>
+                        </div>
+
+                    </b>
                 </div>
 
             </div>
 
             <div class="seven columns" style="text-align: center;">
-                <div    class="farm-div">
-                    <img src="assets/daria-puzzle-v1.png" alt="daria">
-                    <br>
-                    <h5><b>Which row<i>(top(1) to bottom(8))</i> and column<i>(left(1) to
-                                right(8))</i> is the cow in?</b></h5>
-                    <div style="text-align: center; font-size: 125%; color: white; font: bold;" class="green-div">
-                        <b>Row <input type="text" id='username'
-                                style="background-color: orangered; opacity: 80%; text-shadow: 0px 0px 6px black"
-                                placeholder="                Animal?" autocomplete="off"><br>
-                            <b>Column <input type="text" id='username1'
-                                    style="background-color: orange; opacity: 80%; text-shadow: 0px 0px 6px black"
-                                    placeholder="                Animal?" autocomplete="off"><br>
-
-
-                                <div style="text-align: center; font-size: 125%;" type="button" id='buttonLogin'
-                                    onclick="checkInput()">
-                                    <button>
-                                        <h4 style="color: black"><b>Submit</b></h4>
-                                    </button>
-                                </div>
-                    </div>
+                <div class="farm-div image-container">
+                    <img src="assets/daria-puzzle-v1.png">
                 </div>
+                <br>
+                <div style="text-align: center; font-size: 125%; color: black; font: bold;" class="farm-div">
+                    <h5><b>Which row and column is the cow in?</b></h5>
+                    <b>Row <input type="text" id='username' placeholder="row number?"
+                            autocomplete="off" style="text-align: center"><br>
+                        <b>Column <input type="text" id='username1' placeholder="column number?"
+                                autocomplete="off" style="text-align: center"><br>
+
+
+                            <div style="text-align: center; font-size: 125%;" type="button" id='buttonLogin'
+                                onclick="checkInput()">
+                                <button>
+                                    <h4 style="color: black"><b>Submit</b></h4>
+                                </button>
+                            </div>
+                </div>
+
             </div>
         </div>
 
