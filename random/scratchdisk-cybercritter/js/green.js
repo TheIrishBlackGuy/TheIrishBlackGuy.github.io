@@ -1,20 +1,20 @@
 function checkInput() {
     var userN = document.getElementById('username').value;
-    if (userN === "beetle" || userN === "Beetle" || userN === "BEETLE") {        
+    if (userN === "beetle" || userN === "Beetle" || userN === "BEETLE" || userN === "beetle " || userN === "Beetle " || userN === "BEETLE ") {        
         var userN1 = document.getElementById('username1').value;
-        if (userN1 === "scorpion" || userN1 === "Scorpion" || userN1 === "SCORPION") {
+        if (userN1 === "scorpion" || userN1 === "Scorpion" || userN1 === "SCORPION" || userN1 === "scorpion " || userN1 === "Scorpion " || userN1 === "SCORPION ") {
             var userN2 = document.getElementById('username2').value;
-            if (userN2 === "worm" || userN2 === "Worm" || userN2 === "WORM") {    
+            if (userN2 === "worm" || userN2 === "Worm" || userN2 === "WORM" || userN2 === "worm " || userN2 === "Worm " || userN2 === "WORM ") {    
                 var userN3 = document.getElementById('username3').value;
-                if (userN3 === "snail" || userN3 === "Snail" || userN3 === "SNAIL") {
+                if (userN3 === "snail" || userN3 === "Snail" || userN3 === "SNAIL" || userN3 === "snail " || userN3 === "Snail " || userN3 === "SNAIL ") {
                     var userN4 = document.getElementById('username4').value;
-                    if (userN4 === "butterfly" || userN4 === "Butterfly" || userN4 === "BUTTERFLY") {
+                    if (userN4 === "butterfly" || userN4 === "Butterfly" || userN4 === "BUTTERFLY" || userN4 === "butterfly " || userN4 === "Butterfly " || userN4 === "BUTTERFLY ") {
                         var userN5 = document.getElementById('username5').value;
-                        if (userN5 === "dragonfly" || userN5 === "Dragonfly" || userN5 === "DRAGONFLY") {    
+                        if (userN5 === "dragonfly" || userN5 === "Dragonfly" || userN5 === "DRAGONFLY" || userN5 === "dragonfly " || userN5 === "Dragonfly " || userN5 === "DRAGONFLY ") {    
                             var userN6 = document.getElementById('username6').value;
-                            if (userN6 === "roly-poly" || userN6 === "Roly-poly" || userN6 === "Roly-Poly" || userN6 === "ROLY-POLY" || userN6 === "rolypoly" || userN6 === "Rolypoly" || userN6 === "RolyPoly" || userN6 === "ROLYPOLY") {
+                            if (userN6 === "roly-poly" || userN6 === "Roly-poly" || userN6 === "Roly-Poly" || userN6 === "ROLY-POLY" || userN6 === "rolypoly" || userN6 === "Rolypoly" || userN6 === "RolyPoly" || userN6 === "ROLYPOLY" || userN6 === "roly poly" || userN6 === "Roly poly" || userN6 === "Roly Poly" || userN6 === "ROLY POLY" || userN6 === "roly-poly " || userN6 === "Roly-poly " || userN6 === "Roly-Poly " || userN6 === "ROLY-POLY " || userN6 === "rolypoly " || userN6 === "Rolypoly " || userN6 === "RolyPoly " || userN6 === "ROLYPOLY " || userN6 === "roly poly " || userN6 === "Roly poly " || userN6 === "Roly Poly " || userN6 === "ROLY POLY ") {
                                 var userN7 = document.getElementById('username7').value;
-                                if (userN7 === "spider" || userN7 === "Spider" || userN7 === "SPIDER") {
+                                if (userN7 === "spider" || userN7 === "Spider" || userN7 === "SPIDER" || userN7 === "spider " || userN7 === "Spider " || userN7 === "SPIDER ") {
             
             
             document.location = 'solved-green.html';
