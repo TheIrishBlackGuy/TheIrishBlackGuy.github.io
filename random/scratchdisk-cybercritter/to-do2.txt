@@ -6,11 +6,11 @@ Based on First Friday:
     - help page with JD
     - much simpler variants of puzzle
 - newer page layout
-    - <six column> scratch disk present logo
-    - <six column> clickable map
-    - back to map, change <h1> to <h3>
+/X/    - <six column> scratch disk present logo
+/X/    - <six column> clickable map
+/X/    - back to map, change <h1> to <h3>
     - <map><area shape="poly"> to make image clickable
-    - <nav bar> practice/JD help center, greenhouse, safari, farm, aquarium
+/X/    - <nav bar> practice/JD help center, greenhouse, safari, farm, aquarium
 /X/- John Dill images paired with text
 /X/    - mess with <div><img>[text]</div>
 /X/        - this doesn't exactly work but almost
@@ -18,7 +18,7 @@ Based on First Friday:
     - daria's code above
         - breaks aqua
 - Cyber critter final
-    - all 4 habitat key words = digizoo, the The Archivist terminal input
+/X/    - all 4 habitat key words = digizoo, the The Archivist terminal input
 
 - Greenhouse
 /X/    - input text white
