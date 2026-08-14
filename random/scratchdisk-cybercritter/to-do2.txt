@@ -40,7 +40,7 @@ Based on First Friday:
 /X/    - fix <input> that "wrong answer" doesn't appear when you click <input>
 /X/    - <input> for row and <input> for column
 - Aquarium
-    - use the click-on-grid
-        - binary click on/off
+/X/    - use the click-on-grid
+/X/        - binary click on/off
     - can you change color of pen in the code w/o affecting other color?
     - any animal keyword input gives the aquarium keyword
