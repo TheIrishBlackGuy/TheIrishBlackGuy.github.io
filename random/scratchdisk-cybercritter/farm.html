@@ -38,7 +38,7 @@
     <style>
         .image-container img {
             width: 100%;
-            height: 100%;
+            /* height: 100%; */
             object-fit: contain;
         }
     </style>
@@ -63,7 +63,7 @@
 
     <div class="container">
 
-        <br><br>
+        <br> <br>
 
         <div class="row section">
             <div class="five columns" style="text-align: center;">
@@ -73,9 +73,10 @@
                     </a>
                     <p style="font-size: 200%;">You've taken <span id="time"> </span> seconds so far
                     </p>
-                </div><br>
+                </div>
+                <br>
                 <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
-                <div class="farm-div" style="font-size: 125%;">
+                <div class="farm-div">
                     <p>
                         Howdy! Welcome to <b>The Farmyard</b>, where most of the animals wander freely, but right now,
                         they seem a bit more territorial than usual. I think we'll need to <b>restrict each one</b> of
@@ -94,14 +95,14 @@
                         <b>
                             <div class="three columns" style="text-align: center; transform: translate(18%);">
                                 <div id="mydiv">
-                                    <div id="mydivheader" class="sheep">sheep</div>
+                                    <img id="mydivheader" src="./assets/farm-sheep.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
-                                <br>
-                                <br>
+                                <br><br>
+                                <br><br>
 
                                 <div id="mydiv1">
-                                    <div id="mydivheader1" class="cow">cow</div>
+                                    <img id="mydivheader1" src="./assets/farm-cow.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
                                 <br>
@@ -109,14 +110,14 @@
 
                             <div class="three columns" style="text-align: center; transform: translate(18%);">
                                 <div id="mydiv2">
-                                    <div id="mydivheader2" class="pig">pig</div>
+                                    <img id="mydivheader2" src="./assets/farm-pig.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
-                                <br>
-                                <br>
+                                <br><br>
+                                <br><br>
 
                                 <div id="mydiv3">
-                                    <div id="mydivheader3" class="chicken">chicken</div>
+                                    <img id="mydivheader3" src="./assets/farm-chicken.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
                                 <br>
@@ -124,14 +125,14 @@
 
                             <div class="three columns" style="text-align: center; transform: translate(18%);">
                                 <div id="mydiv4">
-                                    <div id="mydivheader4" class="goat">goat</div>
+                                    <img id="mydivheader4" src="./assets/farm-goat.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
-                                <br>
-                                <br>
+                                <br><br>
+                                <br><br>
 
                                 <div id="mydiv5">
-                                    <div id="mydivheader5" class="peacock">peacock</div>
+                                    <img id="mydivheader5" src="./assets/farm-peacock.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
                                 <br>
@@ -139,26 +140,27 @@
 
                             <div class="three columns" style="text-align: center; transform: translate(18%);">
                                 <div id="mydiv6">
-                                    <div id="mydivheader6" class="horse">horse</div>
+                                    <img id="mydivheader6" src="./assets/farm-horse.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
-                                <br>
-                                <br>
+                                <br><br>
+                                <br><br>
 
                                 <div id="mydiv7">
-                                    <div id="mydivheader7" class="rabbit">rabbit</div>
+                                    <img id="mydivheader7" src="./assets/farm-rabbit.png" width="75">
                                 </div>
                                 <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
                                 <br>
                             </div>
                         </b>
                     </div>
+                    <br>
 
 
                     <div>
-                        <br>
-                        Click and drag to use these markers to help you solve the grid.
-                        <br>
+                        <br><br>
+                        <b>Click and drag</b> to use these markers <b>to help</b> you solve the grid.
+                        <br><br>
                         <div style="text-align: center; transform: translate(45%);">
                             <div id="mydiv8">
                                 <div id="mydivheader8"><b>X</b></div>
@@ -331,8 +333,7 @@
                         </div>
                         <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
                     </div>
-                    <br>
-                    <br>
+                    <br><br>
 
                 </div>
 
@@ -459,15 +460,17 @@
 
             <div class="seven columns" style="text-align: center;">
                 <div class="farm-div image-container">
-                    <img src="assets/daria-puzzle-v2.jpg">
+                    <img src="assets/daria-puzzle-v2.jpg" height='700'>
                 </div>
                 <br>
                 <div style="text-align: center; font-size: 125%; color: black; font: bold;" class="farm-div">
                     <h5><b>Which row and column is the cow in?</b></h5>
                     <b>Row <input type="text" id='username' placeholder="row number?" autocomplete="off"
-                            style="text-align: center"><br>
+                            style="text-align: center; background-color: rgb(255, 126, 79);">
+                        <br>
                         <b>Column <input type="text" id='username1' placeholder="column number?" autocomplete="off"
-                                style="text-align: center"><br>
+                                style="text-align: center; background-color: rgb(88, 255, 122);">
+                            <br>
 
 
                             <div style="text-align: center; font-size: 125%;" type="button" id='buttonLogin'
