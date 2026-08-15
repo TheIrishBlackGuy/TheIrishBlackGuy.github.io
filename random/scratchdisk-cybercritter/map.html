@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/farm.css">
+    <!-- <link rel="stylesheet" href="css/farms.css"> -->
 
     <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
@@ -62,13 +62,13 @@
 
 </head>
 
-<body class="farm-body">
+<body class="main-body">
     <br>
-    <nav class="navbar">
-        <div class="container nav_pad">
+    <nav class="navbar main-div">
+        <div class="container nav_pad" style="font-size: 200%;">
             <ul>
                 <b>
-                    <li><a class="navbar-link" href="help.html">Home</a></li>
+                    <li><a class="navbar-link" href="help.html">Help Guide</a></li>
                     <li><a class="navbar-link" href="greenhouse.html"> The Greenhouse</a></li>
                     <li><a class="navbar-link" href="tropical-safari.html"> The Tropical Safari</a></li>
                     <li><a class="navbar-link" href="farm.html"> The Farmyard</a></li>
@@ -77,144 +77,132 @@
             </ul>
         </div>
     </nav>
-
     <div class="container">
-
         <div class="row section">
             <div class="four columns" style="text-align: center;">
-                <br><br>
-                <div class="farm-div image-container">
-                    <img src="assets/Logo_Final_Version-cropped.png">
-                </div>
+                <!-- logo -->
+                <img class="main-div image-container" src="assets/Logo_Final_Version-cropped.png">
                 <br><br>
                 <!-- john dill -->
-                <div class="aqua-div">
-                    <div class="w3-content w3-section" style="max-width:500px">
-                        <div style="font-weight: bold;">
-                            <div class="mySlides">
-                                <div class="row section">
-                                    <div class="five columns">
-                                        <img src="./assets/jd-default.png" width="125%">
-                                    </div>
-                                    <div class="seven columns center">
-                                        <br><br>
-                                        The dolphin is the most intelligent aquatic animal. Even in a comedy movie,
-                                        they found a way to travel to other planets before humans did.
-                                    </div>
-                                </div>
+                <div class="main-div w3-content w3-section" style="max-width:500px; font-weight: bold">
+                    <div class="mySlides">
+                        <div class="row section">
+                            <div class="five columns">
+                                <img src="./assets/jd-default.png" width="125%">
                             </div>
-                            <div class="mySlides">
-                                <div class="row section">
-                                    <div class="five columns">
-                                        <img src="./assets/jd-happy.png" width="125%">
-                                    </div>
-                                    <div class="seven columns center">
-                                        <br><br><br><br>
-                                        The largest mammal in the world to have ever existed is still held today by
-                                        a living animal, the blue whale. It does not want to let go of its title.
-                                    </div>
-                                </div>
+                            <div class="six columns center">
+                                <br><br>
+                                The dolphin is the most intelligent aquatic animal. Even in a comedy movie,
+                                they found a way to travel to other planets before humans did.
                             </div>
-                            <div class="mySlides">
-                                <div class="row section">
-                                    <div class="five columns">
-                                        <img src="./assets/jd-blank.png" width="125%">
-                                    </div>
-                                    <div class="seven columns center">
-                                        <br><br><br><br>
-                                        Did you know that the legendary sea beast, The Kraken, may have just been
-                                        fishermen’s first encounter with the giant squid that they just exaggerated
-                                        the story.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mySlides">
-                                <div class="row section">
-                                    <div class="five columns">
-                                        <img src="./assets/jd-annoyed.png" width="125%">
-                                    </div>
-                                    <div class="seven columns center">
-                                        <br><br><br><br>
-                                        We have to be wary of some pelicans and seagulls around here as they can
-                                        sometimes see this area as a feeding ground.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mySlides">
-                                <div class="row section">
-                                    <div class="five columns">
-                                        <img src="./assets/jd-neutral-look-away.png" width="125%">
-                                    </div>
-                                    <div class="seven columns center">
-                                        <br><br><br><br>
-                                        Most lobsters are not red. They are most commonly shades of green or yellow,
-                                        or even bright blue. They turn red when cooked.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mySlides">
-                                <div class="row section">
-                                    <div class="five columns">
-                                        <img src="./assets/jd-stressed.png" width="125%">
-                                    </div>
-                                    <div class="seven columns center">
-                                        <br><br><br><br>
-                                        The mantis shrimp is an underwater weapon. Due to what is similar to
-                                        hydraulics in its claws, it can strike its claw forward fast enough that it
-                                        begins to boil the water around it.
-                                    </div>
-                                </div>
-                            </div>
-
-                            <script>
-                                var myIndex = 0;
-                                carousel();
-
-                                function carousel() {
-                                    var i;
-                                    var x = document.getElementsByClassName("mySlides");
-                                    for (i = 0; i < x.length; i++) {
-                                        x[i].style.display = "none";
-                                    }
-                                    myIndex++;
-                                    if (myIndex > x.length) { myIndex = 1 }
-                                    x[myIndex - 1].style.display = "block";
-                                    setTimeout(carousel, 6000); // Change image every 2 seconds
-                                }
-                            </script>
-
                         </div>
                     </div>
+                    <div class="mySlides">
+                        <div class="row section">
+                            <div class="five columns">
+                                <img src="./assets/jd-happy.png" width="125%">
+                            </div>
+                            <div class="six columns center">
+                                <br><br><br>
+                                The largest mammal in the world to have ever existed is still held today by
+                                a living animal, the blue whale. It does not want to let go of its title.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="row section">
+                            <div class="five columns">
+                                <img src="./assets/jd-blank.png" width="125%">
+                            </div>
+                            <div class="six columns center">
+                                <br><br><br>
+                                Did you know that the legendary sea beast, The Kraken, may have just been
+                                fishermen’s first encounter with the giant squid that they just exaggerated
+                                the story.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="row section">
+                            <div class="five columns">
+                                <img src="./assets/jd-annoyed.png" width="125%">
+                            </div>
+                            <div class="six columns center">
+                                <br><br><br>
+                                We have to be wary of some pelicans and seagulls around here as they can
+                                sometimes see this area as a feeding ground.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="row section">
+                            <div class="five columns">
+                                <img src="./assets/jd-neutral-look-away.png" width="125%">
+                            </div>
+                            <div class="six columns center">
+                                <br><br><br>
+                                Most lobsters are not red. They are most commonly shades of green or yellow,
+                                or even bright blue. They turn red when cooked.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mySlides">
+                        <div class="row section">
+                            <div class="five columns">
+                                <img src="./assets/jd-stressed.png" width="125%">
+                            </div>
+                            <div class="six columns center">
+                                <br><br><br>
+                                The mantis shrimp is an underwater weapon. Due to what is similar to
+                                hydraulics in its claws, it can strike its claw forward fast enough that it
+                                begins to boil the water around it.
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) { myIndex = 1 }
+                            x[myIndex - 1].style.display = "block";
+                            setTimeout(carousel, 6000); // Change image every 2 seconds
+                        }
+                    </script>
                 </div>
                 <br><br>
-                <div style="text-align: center;">
-
-                    <input type="text" id='username' placeholder="Tropical Safari Keyword?" autocomplete="off">
-                    <input type="text" id='username1' placeholder="Aquarium Keyword?" autocomplete="off">
-                    <input type="text" id='username2' placeholder="Farmyard Keyword?" autocomplete="off">
-                    <input type="text" id='username3' placeholder="Greenhouse Keyword?" autocomplete="off">
-
+                <!-- keywords -->
+                <div class="row section main-div" style="text-align: center;">
+                    <div class="six columns" style="text-align: center;">
+                        <input type="text" id='username' placeholder="Tropical Safari Keyword?" autocomplete="off">
+                        <input type="text" id='username2' placeholder="Farmyard Keyword?" autocomplete="off">
+                    </div>
+                    <div class="six columns" style="text-align: center;">
+                        <input type="text" id='username1' placeholder="Aquarium Keyword?" autocomplete="off">
+                        <input type="text" id='username3' placeholder="Greenhouse Keyword?" autocomplete="off">
+                    </div>
+                    <div>
+                        <button type="button" id='buttonLogin' onclick="checkInput()">
+                            <h4 style="color: black"><b>Submit</b></h4>
+                        </button>
+                    </div>
                 </div>
-                <br>
-                <div class="aqua-div" type="button" id='buttonLogin' onclick="checkInput()">
-                    <button>
-                        <h4 style="color: black"><b>Submit</b></h4>
-                    </button>
-                </div>
-
             </div>
 
             <div class="eight columns" style="text-align: center;">
-                <br><br>
-                <div class="green-div image-container">
+                <!-- map -->
+                <div class="main-div image-container">
                     <img src="assets/map-v3.1.png">
                 </div>
             </div>
-
         </div>
-
     </div>
-
     </div>
 
     <!-- end of MAIN container /////////////////-->

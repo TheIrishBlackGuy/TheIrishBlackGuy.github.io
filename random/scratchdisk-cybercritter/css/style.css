@@ -1,10 +1,15 @@
-/* a {
-    color: rgb(0, 0, 160);
+a {
+    color: rgb(120, 0, 0);
 }
-
+a:link {
+    color: rgb(120, 0, 0);
+}
+a:visited {
+    color: rgb(120, 0, 0);
+}
 a:hover {
-    color: rgb(0, 0, 255);
-} */
+    color: rgb(255, 0, 0);
+}
 
 /* mark1 {
     background-color: red;
@@ -122,6 +127,21 @@ mark8 {
     padding: 15px
 }
 
+.main-body {
+    /* background-image: url('../assets/images-2.jpeg'); */
+    background-image: url('../assets/glitch-3.gif');
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.main-div {
+    background-color: rgba(211, 69, 8, 0.695);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+
 .center {
     display: flex;
     justify-content: center;
@@ -142,9 +162,9 @@ mark8 {
 
 
 
-.map-body {
+/* .map-body {
     background-image: url('../assets/map-v3.png');
     background-size: 100% auto;
     background-attachment: fixed;
     background-repeat: no-repeat;
-}
+} */
