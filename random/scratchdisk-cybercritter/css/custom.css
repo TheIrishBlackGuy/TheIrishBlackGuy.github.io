@@ -43,7 +43,7 @@ img {
 }
 
 
-  a:link {
+  /* a:link {
     color: rgb(0, 48, 0);
     text-decoration: none;
   }
@@ -61,12 +61,12 @@ img {
   a:active {
     text-decoration: none;
     color: rgb(192, 192, 0);
-  }
+  } */
 
-  td,
+  /* td,
   th {
     color: #A0522D;
-  }
+  } */
 
 
 

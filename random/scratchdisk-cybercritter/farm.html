@@ -31,6 +31,7 @@
     <!-- <link rel="stylesheet" href="css/custom.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/farm.css">
+    <link rel="stylesheet" href="css/popup.css">
 
     <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
@@ -87,9 +88,20 @@
                         creature (<b>each has their own row and column</b>)
                         <br> - <b>Cannot</b> be touching <b>horizontally,
                             vertically or diagonally</b>
-                        <br>Check out my visual guide(link/modal) if you need help!
+                        <br>Check out my visual guide if you need help!
                     </p>
 
+                    <h5><b><a href="#popUp" id="openPopUp">Certified Un-glitching Guide</a></b></h5>
+
+                    <aside id="popUp" class="popup">
+                        <div class="popUpContainer" style="display: flex; justify-content: center">
+                            <header>
+                                <a href="#!" class="farm-div closePopUp" style="translate: 800% -5%; z-index: 1">X</a><br><br>
+                                <img src="./assets/help-farm.png" style="width: 1200px; translate: 18.5%;">
+                            </header>
+                        </div>
+                        <a href="#!" class="closePopUpOutSide"></a>
+                    </aside>
 
                     <div class="row section" style="z-index: -25;">
                         <b>
@@ -448,7 +460,7 @@
                                     myIndex++;
                                     if (myIndex > x.length) { myIndex = 1 }
                                     x[myIndex - 1].style.display = "block";
-                                    setTimeout(carousel, (8)*1000); // Change image every 8 seconds
+                                    setTimeout(carousel, (8) * 1000); // Change image every 8 seconds
                                     // console.log(random(10,15)); // Change image every 10-15 seconds
                                 }
                             </script>

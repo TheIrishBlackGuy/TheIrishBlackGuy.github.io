@@ -2,37 +2,330 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
     <title>Tropical Safari</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT ––––––––––––––––––––––––––––––––––––––––------–––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="css/overlaypopup.js"> </script> -->
+
+    <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script>
+    <!-- <script language="javascript" type="text/javascript" src="./js/farm.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/skeleton.css">
     <!-- <link rel="stylesheet" href="css/custom.css"> -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/tropari.css">
+    <link rel="stylesheet" href="css/farm.css">
+    <link rel="stylesheet" href="css/popup.css">
 
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
 
+    <style>
+        .image-container img {
+            width: 100%;
+            /* height: 100%; */
+            object-fit: contain;
+        }
+    </style>
+
+    <script>
+        var timeElapsed = 0;
+        var myTimer = 0;
+
+        function start() {
+            myTimer = setInterval(function () {
+                timeElapsed += 1;
+                document.getElementById("time").innerText = timeElapsed;
+            }, 1000);
+        }
+    </script>
 
 
 </head>
 
-<body style="text-align: center;" class="tropari-body">
+<body class="tropari-body" onload="start()">
+    <br>
 
-    <br><br><br>
+    <div class="container">
 
-    <h3><a href="map.html">Return to Map</a></h3><br>
-    <h2>Welcome to Tropical Safari Habitat</a></h2><br>
-    <!-- <h2>Lyndon's puzzle will be here</a></h2><br> -->
-    <h3>This page is <b>temporarily</b> a work-in-progress.<br></h3>
-    <h3>The maze below is <b>functional</b> right now and will be better in the <b>future tests and showcases</b>.<br>
-    </h3>
-    <h4><a href="proj-5/index.html">Temp Maze</a></h4>
+        <br> <br>
 
-    <div class="tropari-div">
-        <h4>The Tropical Safari's keyword is<br><b><u>tropic</u></b></h4>
-    </div><br>
+        <div class="row section">
+            <div class="five columns" style="text-align: center;">
+
+                <div class="tropari-div"><a href="map.html">
+                        <h3><b>Back to map</b></h3>
+                    </a>
+                    <p style="font-size: 200%;">You've taken <span id="time"> </span> seconds so far
+                    </p>
+                </div>
+                <br>
+                <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
+                <div class="tropari-div">
+                    <p>
+                        Oh, thank goodness you’re here! <b>The Tropical Safari</b> got shuffled around and has now
+                        become somewhat of <b>a maze</b>. I need your help to check up on <b>all the animals</b> trapped
+                        within it. Make sure to remember which turns we take because <b>one wrong step</b>, and it will
+                        keep <b>sending us back</b> to the start. I hope your <b>memory is good</b>.
+                    </p>
+
+                    <!-- <h5><b><a href="#popUp" id="openPopUp">Certified Un-glitching Guide</a></b></h5>
+
+                    <aside id="popUp" class="popup">
+                        <div class="popUpContainer" style="display: flex; justify-content: center">
+                            <header>
+                                <a href="#!" class="tropari-div closePopUp"
+                                    style="translate: 800% -5%; z-index: 1">X</a><br><br>
+                                <img src="./assets/help-farm.png" style="width: 1200px; translate: 18.5%;">
+                            </header>
+                        </div>
+                        <a href="#!" class="closePopUpOutSide"></a>
+                    </aside>
+
+                    <div class="row section" style="z-index: -25;">
+                        <b>
+                            <div class="three columns" style="text-align: center; transform: translate(15%);">
+                                <div id="mydiv">
+                                    <img id="mydivheader" src="./assets/farm-sheep.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br><br>
+                                <br><br>
+
+                                <div id="mydiv1">
+                                    <img id="mydivheader1" src="./assets/farm-cow.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+
+                            <div class="three columns" style="text-align: center; transform: translate(15%);">
+                                <div id="mydiv2">
+                                    <img id="mydivheader2" src="./assets/farm-pig.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br><br>
+                                <br><br>
+
+                                <div id="mydiv3">
+                                    <img id="mydivheader3" src="./assets/farm-chicken.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+
+                            <div class="three columns" style="text-align: center; transform: translate(15%);">
+                                <div id="mydiv4">
+                                    <img id="mydivheader4" src="./assets/farm-goat.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br><br>
+                                <br><br>
+
+                                <div id="mydiv5">
+                                    <img id="mydivheader5" src="./assets/farm-peacock.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+
+                            <div class="three columns" style="text-align: center; transform: translate(15%);">
+                                <div id="mydiv6">
+                                    <img id="mydivheader6" src="./assets/farm-horse.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br><br>
+                                <br><br>
+
+                                <div id="mydiv7">
+                                    <img id="mydivheader7" src="./assets/farm-rabbit.png" width="75">
+                                </div>
+                                <script language="javascript" type="text/javascript" src="./js/farm.js"></script>
+                                <br>
+                            </div>
+                        </b>
+                    </div> -->
+                    <!-- <br> -->
+
+
+
+                </div>
+
+                <br>
+                <!-- <div class="aqua-div">john dill sprites, flavor text, and lore goes here</div> -->
+                <div class="tropari-div">
+                    <b>
+                        <div class="w3-content w3-section" style="max-width:500px">
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-default.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Did you know that cow are such good eaters that they require four stomachs just
+                                        to keep up with their appetite.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-happy.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        I love the chickens around here. I happen to 5 of my own back home. They each
+                                        have their own attitude.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-blank.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Goats are great escape artists. They can eat through most things, they can jump
+                                        pretty high, and they can scale sheer surfaces with ease.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-annoyed.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Many of the animals in here can truly stink up their pens. Have you seen how big
+                                        their poops can be?
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-neutral-look-away.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Did you know that male peacocks are the more colorful of the two genders.
+                                        Females
+                                        are usually a dull brown while males are the very vibrant blue, yellow, and
+                                        green ones.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mySlides">
+                                <div class="row section">
+                                    <div class="two columns">
+                                        .
+                                    </div>
+                                    <div class="five columns">
+                                        <img src="./assets/jd-stressed.png" width="125%">
+                                    </div>
+                                    <div class="five columns center">
+                                        <br><br><br><br>
+                                        Taking care of all these animals can get pretty stressful if they go without
+                                        care or if you don't meet their needs.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                var myIndex = 0;
+                                carousel();
+
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides");
+                                    for (i = 0; i < x.length; i++) {
+                                        x[i].style.display = "none";
+                                    }
+                                    myIndex++;
+                                    if (myIndex > x.length) { myIndex = 1 }
+                                    x[myIndex - 1].style.display = "block";
+                                    setTimeout(carousel, (8) * 1000); // Change image every 8 seconds
+                                    // console.log(random(10,15)); // Change image every 10-15 seconds
+                                }
+                            </script>
+                        </div>
+
+                    </b>
+                </div>
+
+            </div>
+
+            <div class="seven columns" style="text-align: center;">
+                <div class="tropari-div image-container">
+                    <!-- <img src="assets/daria-puzzle-v2.jpg" height='700'> -->
+                    <iframe src="proj-5/index.html" height="750px" width="95%" title="Iframe Example"></iframe>
+
+                    <!-- <h4><a href="proj-5/index.html">Temp Maze</a></h4> -->
+                </div>
+                <br>
+
+                <!-- <div style="text-align: center; font-size: 125%; color: black; font: bold;" class="tropari-div">
+                    <h5><b>Which row and column is the cow in?</b></h5>
+                    <b>Row <input type="text" id='username' placeholder="row number?" autocomplete="off"
+                            style="text-align: center; background-color: rgb(255, 126, 79);">
+                        <b>Column <input type="text" id='username1' placeholder="column number?" autocomplete="off"
+                                style="text-align: center; background-color: rgb(88, 255, 122);">
+                            <br>
+
+
+                            <div style="text-align: center; font-size: 125%;" type="button" id='buttonLogin'
+                                onclick="checkInput()">
+                                <button>
+                                    <h4 style="color: black"><b>Submit</b></h4>
+                                </button>
+                            </div>
+                </div> -->
+
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+    <!-- end of MAIN container /////////////////-->
 
 </body>
+
+</html>
 
 </html>

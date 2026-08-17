@@ -306,7 +306,7 @@ p {
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
+/* a {
   color: #1EAEDB;
   text-decoration: none;
 }
@@ -314,7 +314,7 @@ a {
 a:hover {
   color: #0FA0CE;
   text-decoration: none;
-}
+} */
 
 
 /* Buttons

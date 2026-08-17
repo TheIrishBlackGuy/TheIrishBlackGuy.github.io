@@ -132,6 +132,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="../../css/style.css"> -->
     <link rel="stylesheet" href="css/aqua.css">
+    <link rel="stylesheet" href="css/popup.css">
     <!-- <link rel="stylesheet" href="../../css/aqua.css"> -->
 
     <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -176,8 +177,21 @@
                         fill in the rest? Click on the grid to fill in the shape based on the <b>number clues</b> for
                         <b>each row and column</b>. Once you think you know what species this is, tell me your <b>guess
                             below</b> and I can identify and find you <b>their code name</b>! I have made <b>some
-                            notes</b> on how to fix a glitched creature here<b>(link/modal)</b>.
+                            notes</b> on how to fix a glitched creature here.
                     </p>
+
+                    <h5><b><a href="#popUp" id="openPopUp">Certified Un-glitching Guide</a></b></h5>
+
+                    <aside id="popUp" class="popup">
+                        <div class="popUpContainer" style="display: flex; justify-content: center">
+                            <header>
+                                <a href="#!" class="aqua-div closePopUp" style="translate: 800% -5%; z-index: 1">X</a><br><br>
+                                <img src="./assets/help-aquarium.png" style="width: 1200px; translate: 18.5%;">
+                            </header>
+                        </div>
+                        <a href="#!" class="closePopUpOutSide"></a>
+                    </aside>
+
                 </div>
                 <br>
 
@@ -288,7 +302,7 @@
                                     myIndex++;
                                     if (myIndex > x.length) { myIndex = 1 }
                                     x[myIndex - 1].style.display = "block";
-                                   setTimeout(carousel, (8)*1000); // Change image every 8 seconds
+                                    setTimeout(carousel, (8) * 1000); // Change image every 8 seconds
                                 }
                             </script>
 
