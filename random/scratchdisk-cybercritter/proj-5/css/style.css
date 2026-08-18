@@ -21,21 +21,21 @@ a:link {
 
 }
 
-.intro {
-    background-color: rgb(192, 192, 192);
-    /* width: 100px; */
-    height: 200px;
-    border-radius: 50px;
-    /* transform: translate(10px, 10px); */
-}
+/* .intro {
+     background-color: rgb(192, 192, 192); 
+     width: 100px; 
+     height: 200px; 
+     border-radius: 50px; 
+     transform: translate(10px, 10px); 
+} */
 
-.outro {
-    background-color: rgb(128, 96, 192);
-    /* width: 100px; */
-    height: 200px;
-    border-radius: 50px;
-    /* transform: translate(10px, 10px); */
-}
+/* .outro {
+     background-color: rgb(128, 96, 192); 
+     width: 100px; 
+     height: 200px; 
+     border-radius: 50px; 
+     transform: translate(10px, 10px); 
+} */
 
 
 /* ---------- SHAPES ---------- */

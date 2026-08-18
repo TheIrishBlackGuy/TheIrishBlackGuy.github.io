@@ -72,8 +72,8 @@
                 <div class="tropari-div"><a href="map.html">
                         <h3><b>Back to map</b></h3>
                     </a>
-                    <p style="font-size: 200%;">You've taken <span id="time"> </span> seconds so far
-                    </p>
+                    <p style="font-size: 200%;">You've taken <span id="time"> </span> seconds so far<br>
+                    </p>[page still w.i.p]
                 </div>
                 <br>
                 <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
@@ -83,6 +83,10 @@
                         become somewhat of <b>a maze</b>. I need your help to check up on <b>all the animals</b> trapped
                         within it. Make sure to remember which turns we take because <b>one wrong step</b>, and it will
                         keep <b>sending us back</b> to the start. I hope your <b>memory is good</b>.
+                        <br><br>
+                        We start at the <b>Edge of The Oasis</b> and from there have to pass through <b>The Oasis</b>
+                        itself, followed by <b>The Tropical Jungle</b>, and then reach the <b>Safari Savannah</b>. Make
+                        sure to keep an eye out for <b>our animals</b>.
                     </p>
 
                     <!-- <h5><b><a href="#popUp" id="openPopUp">Certified Un-glitching Guide</a></b></h5>
@@ -182,8 +186,10 @@
                                     </div>
                                     <div class="five columns center">
                                         <br><br><br><br>
-                                        Did you know that cow are such good eaters that they require four stomachs just
-                                        to keep up with their appetite.
+                                        <!-- Did you know that cow are such good eaters that they require four stomachs just
+                                        to keep up with their appetite. -->
+                                        [safari lore/comment here]
+
                                     </div>
                                 </div>
                             </div>
@@ -197,8 +203,10 @@
                                     </div>
                                     <div class="five columns center">
                                         <br><br><br><br>
-                                        I love the chickens around here. I happen to 5 of my own back home. They each
-                                        have their own attitude.
+                                        <!-- I love the chickens around here. I happen to 5 of my own back home. They each
+                                        have their own attitude. -->
+                                        [safari lore/comment here]
+
                                     </div>
                                 </div>
                             </div>
@@ -212,8 +220,10 @@
                                     </div>
                                     <div class="five columns center">
                                         <br><br><br><br>
-                                        Goats are great escape artists. They can eat through most things, they can jump
-                                        pretty high, and they can scale sheer surfaces with ease.
+                                        <!-- Goats are great escape artists. They can eat through most things, they can jump
+                                        pretty high, and they can scale sheer surfaces with ease. -->
+                                        [safari lore/comment here]
+
                                     </div>
                                 </div>
                             </div>
@@ -227,8 +237,10 @@
                                     </div>
                                     <div class="five columns center">
                                         <br><br><br><br>
-                                        Many of the animals in here can truly stink up their pens. Have you seen how big
-                                        their poops can be?
+                                        <!-- Many of the animals in here can truly stink up their pens. Have you seen how big
+                                        their poops can be? -->
+                                        [safari lore/comment here]
+
                                     </div>
                                 </div>
                             </div>
@@ -242,10 +254,11 @@
                                     </div>
                                     <div class="five columns center">
                                         <br><br><br><br>
-                                        Did you know that male peacocks are the more colorful of the two genders.
-                                        Females
-                                        are usually a dull brown while males are the very vibrant blue, yellow, and
-                                        green ones.
+                                        <!-- Did you know that male peacocks are the more colorful of the two genders.
+                                        Females are usually a dull brown while males are the very vibrant blue, yellow,
+                                        and green ones. -->
+                                        [safari lore/comment here]
+
                                     </div>
                                 </div>
                             </div>
@@ -259,8 +272,9 @@
                                     </div>
                                     <div class="five columns center">
                                         <br><br><br><br>
-                                        Taking care of all these animals can get pretty stressful if they go without
-                                        care or if you don't meet their needs.
+                                        <!-- Taking care of all these animals can get pretty stressful if they go without
+                                        care or if you don't meet their needs. -->
+                                        [safari lore/comment here]
                                     </div>
                                 </div>
                             </div>
@@ -286,13 +300,32 @@
 
                     </b>
                 </div>
+                <br>
+                <div class="tropari-div" style="align-items: center; ">
+                    <h3><b>What is the keyword of this habitat?</b></h3>
+                    <input type="text" id='username' placeholder="Keyword guess" autocomplete="off"
+                        style="text-align: center; font-weight: bold"><br>
+                    <button type="button" id='buttonLogin' onclick="checkInput()">
+                        <h4 style="color: black"><b>Submit</b></h4>
+                    </button>
+                </div>
+
+                <script>
+                    function checkInput() {
+                        var userN = document.getElementById('username').value;
+                        if (userN === "acacia" || userN === "Acacia" || userN === "ACACIA" || userN === "acacia " || userN === "Acacia " || userN === "ACACIA ") {
+                            document.location = 'map.html';
+                        } else alert("Wrong creature. Try again");
+                    }
+
+                </script>
 
             </div>
 
             <div class="seven columns" style="text-align: center;">
                 <div class="tropari-div image-container">
                     <!-- <img src="assets/daria-puzzle-v2.jpg" height='700'> -->
-                    <iframe src="proj-5/index.html" height="750px" width="95%" title="Iframe Example"></iframe>
+                    <iframe src="proj-5/index.html" height="800px" width="95%" title="Iframe Example"></iframe>
 
                     <!-- <h4><a href="proj-5/index.html">Temp Maze</a></h4> -->
                 </div>

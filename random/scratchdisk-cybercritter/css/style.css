@@ -134,7 +134,7 @@ mark8 {
 }
 
 .farm-body {
-    background-image: url('../assets/background-farm-v1.png');
+    background-image: url('../assets/background-farm-v2.png');
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -166,8 +166,32 @@ mark8 {
 
 }
 
+.tropari-body1 {
+    background-image: url('../assets/background-safari-v2.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+
+.tropari-body2 {
+    background-image: url('../assets/background-safari-v3.png');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+
 .tropari-div {
-    background-color: rgba(164, 199, 24, 0.53);
+    background-color: rgba(178, 214, 31, 0.53);
+    border-radius: 15px;
+    padding: 15px
+}
+
+.troparisub-div {
+    background-color: rgba(193, 162, 8, 0.53);
     border-radius: 15px;
     padding: 15px
 }
