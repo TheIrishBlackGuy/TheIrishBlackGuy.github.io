@@ -1,24 +1,24 @@
 function checkInput() {
   var userN = document.getElementById('username').value;
-  if (userN === "krusty" || userN === "Krusty" || userN === "KRUSTY") {
+  if (userN === "krusty" || userN === "Krusty" || userN === "KRUSTY" || userN === "krusty " || userN === "Krusty " || userN === "KRUSTY ") {
     document.location = 'solved-aqua.html';
   } else alert("Wrong key. Try again");
 }
 function checkInput1() {
   var userN = document.getElementById('username1').value;
-  if (userN === "10tickles" || userN === "10Tickles" ) {
+  if (userN === "10tickles" || userN === "10Tickles" || userN === "10TICKLES" || userN === "10 tickles" || userN === "10 Tickles" || userN === "10 TICKLES" || userN === "10tickles " || userN === "10Tickles " || userN === "10TICKLES " || userN === "10 tickles " || userN === "10 Tickles " || userN === "10 TICKLES " ) {
     document.location = 'solved-aqua.html';
   } else alert("Wrong key. Try again");
 }
 function checkInput2() {
   var userN = document.getElementById('username2').value;
-  if (userN === "finding" || userN === "Finding" || userN === "FINDING") {
+  if (userN === "finding" || userN === "Finding" || userN === "FINDING" || userN === "finding " || userN === "Finding " || userN === "FINDING ") {
     document.location = 'solved-aqua.html';
   } else alert("Wrong key. Try again");
 }
 function checkInput3() {
   var userN = document.getElementById('username3').value;
-  if (userN === "jaws" || userN === "Jaws" || userN === "JAWS") {
+  if (userN === "jaws" || userN === "Jaws" || userN === "JAWS" || userN === "jaws " || userN === "Jaws " || userN === "JAWS ") {
     document.location = 'solved-aqua.html';
   } else alert("Wrong key. Try again");
 }
