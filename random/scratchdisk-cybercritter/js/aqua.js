@@ -16,12 +16,13 @@ function checkInput2() {
     document.location = 'solved-aqua.html';
   } else alert("Wrong key. Try again");
 }
+
 function checkInput3() {
   var userN = document.getElementById('username3').value;
   if (userN === "jaws" || userN === "Jaws" || userN === "JAWS" || userN === "jaws " || userN === "Jaws " || userN === "JAWS ") {
     document.location = 'solved-aqua.html';
   } else alert("Wrong key. Try again");
-}
+} 
 
 // 227 260 292 325 357 389 422 454 486 519 552 584 616 650 682 715
 // __ 33  32  33  32  32  33  32  32  33  33  32  32  34  32  33  = 32.5
