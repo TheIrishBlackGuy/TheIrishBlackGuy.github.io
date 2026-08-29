@@ -109,6 +109,12 @@ mark8 {
     padding: 15px
 }
 
+.aqua-div1 {
+    background-color: rgba(25, 130, 250, 0.5);
+    border-radius: 15px;
+    padding: 15px
+}
+
 .green-body {
     background-image: url('../assets/background-greenhouse-v3.png');
     background-size: 100% 100%;

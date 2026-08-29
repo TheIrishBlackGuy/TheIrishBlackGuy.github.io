@@ -187,8 +187,8 @@
                     <aside id="popUp" class="popup">
                         <div class="popUpContainer" style="display: flex; justify-content: center">
                             <header>
-                                <a href="#!" class="aqua-div closePopUp" style="translate: 800% -5%; z-index: 1">X</a><br><br>
-                                <img src="./assets/help-aquarium.png" style="width: 1200px; translate: 18.5%;">
+                                <a href="#!" class="closePopUp" style="translate: 800% -115%; z-index: 1">X</a>
+                                <img src="./assets/help-aquarium.png" style="width: 1050px; translate: 21.5%;">
                             </header>
                         </div>
                         <a href="#!" class="closePopUpOutSide"></a>
@@ -385,11 +385,55 @@
                                 for (var j = 0; j < 15; j++) {
                                     for (var i = 0; i < 15; i++) {
                                         // if (col[j * 15 + i]) fill(208, 255, 208);
-                                        if (col[j * 15 + i]) fill(255);
-                                        else
+                                        if (col[j * 15 + i]) {
+                                            noStroke();
+                                            fill(255);
+                                            rect(454 + x[i], 268 + y[j], 35, 35);
+
+                                            fill(48, 48, 172);
+                                            rect(454 + (39 * 1), 268 + (39 * 11), 37, 37);
+                                            rect(454 + (39 * 4), 268 + (39 * 11), 37, 37);
+                                            rect(454 + (39 * 5), 268 + (39 * 11), 37, 37);
+                                            rect(454 + (39 * 6), 268 + (39 * 11), 37, 37);
+                                            rect(454 + (39 * 7), 268 + (39 * 11), 37, 37);
+
+                                            rect(454 + (39 * 8), 268 + (39 * 11), 37, 37);
+                                            rect(454 + (39 * 9), 268 + (39 * 11), 37, 37);
+                                            rect(454 + (39 * 10), 268 + (39 * 11), 37, 37);
+                                            rect(454 + (39 * 1), 268 + (39 * 12), 37, 37);
+                                            rect(454 + (39 * 3), 268 + (39 * 12), 37, 37);
+
+                                            rect(454 + (39 * 4), 268 + (39 * 12), 37, 37);
+                                            rect(454 + (39 * 5), 268 + (39 * 12), 37, 37);
+                                            rect(454 + (39 * 6), 268 + (39 * 12), 37, 37);
+                                            rect(454 + (39 * 7), 268 + (39 * 12), 37, 37);
+                                            rect(454 + (39 * 8), 268 + (39 * 12), 37, 37);
+
+                                            rect(454 + (39 * 9), 268 + (39 * 12), 37, 37);
+                                            rect(454 + (39 * 10), 268 + (39 * 12), 37, 37);
+                                            rect(454 + (39 * 1), 268 + (39 * 13), 37, 37);
+                                            rect(454 + (39 * 3), 268 + (39 * 13), 37, 37);
+                                            rect(454 + (39 * 5), 268 + (39 * 13), 37, 37);
+
+                                            rect(454 + (39 * 6), 268 + (39 * 13), 37, 37);
+                                            rect(454 + (39 * 7), 268 + (39 * 13), 37, 37);
+                                            rect(454 + (39 * 8), 268 + (39 * 13), 37, 37);
+                                            rect(454 + (39 * 9), 268 + (39 * 13), 37, 37);
+                                            rect(454 + (39 * 10), 268 + (39 * 13), 37, 37);
+
+                                            rect(454 + (39 * 1), 268 + (39 * 14), 37, 37);
+                                            rect(454 + (39 * 3), 268 + (39 * 14), 37, 37);
+                                            rect(454 + (39 * 5), 268 + (39 * 14), 37, 37);
+                                            rect(454 + (39 * 3), 268 + (39 * 15), 37, 37);
+                                            rect(454 + (39 * 6), 268 + (39 * 15), 37, 37);
+
+                                            rect(454 + (39 * 10), 268 + (39 * 15), 37, 37);
+
+                                        } else {
                                             fill(color(0, 0, 128));
-                                        rect(270 + 185 + x[i], 270 + y[j], w, w);
-                                        // console.log("this is j : " + j + ". this is i : " + i);
+                                            rect(454 + x[i], 269 + y[j], w, w);
+                                            // console.log("this is j : " + j + ". this is i : " + i);
+                                        }
                                     }
                                 }
                                 break;
@@ -417,6 +461,14 @@
                         if (userN === "crab" || userN === "Crab" || userN === "CRAB" || userN === "crab " || userN === "Crab " || userN === "CRAB ") {
                             document.location = 'key-crab.html';
                         } else alert("Wrong creature. Try again");
+                    }
+
+                    function saveAndGo() {
+                        const data = document.getElementById('userInput').value;
+                        // Save data to localStorage
+                        localStorage.setItem('sharedData', data);
+                        // Redirect to the next page
+                        window.location.href = 'next.html';
                     }
 
                 </script>
