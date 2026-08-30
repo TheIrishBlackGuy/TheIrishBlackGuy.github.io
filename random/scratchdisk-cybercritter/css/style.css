@@ -12,13 +12,13 @@ a:hover {
 } */
 
 a {
-  color: #880000;
-  text-decoration: none;
+    color: #880000;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #c17b01;
-  text-decoration: none;
+    color: #c17b01;
+    text-decoration: none;
 }
 
 /* mark1 {
@@ -164,7 +164,7 @@ mark8 {
 }
 
 .tropari-body {
-    background-image: url('../assets/background-safari-v1.png');
+    background-image: url('../assets/background-safari-v1.1.png');
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -191,13 +191,14 @@ mark8 {
 }
 
 .tropari-div {
-    background-color: rgba(126, 174, 16, 0.625);
+    /* background-color: rgba(169, 174, 16, 0.625); */
+    background-color: rgba(205, 173, 12, 0.75);
     border-radius: 15px;
     padding: 15px
 }
 
 .troparisub-div {
-    background-color: rgba(193, 162, 8, 0.75);
+    background-color: rgba(205, 173, 12, 0.75);
     border-radius: 15px;
     padding: 15px
 }
