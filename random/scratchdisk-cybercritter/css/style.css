@@ -240,7 +240,7 @@ a:hover {
 }
 
 .tropari1 {
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(255, 255, 0, 0);
     color: white;
     width: 100%;
     translate: 15% 0%;
@@ -248,7 +248,7 @@ a:hover {
 }
 
 .farm1 {
-    background-color: rgba(255, 128, 0, 0.5);
+    background-color: rgba(255, 128, 0, 0);
     color: white;
     width: 100%;
     translate: 15% 0%;
@@ -256,7 +256,7 @@ a:hover {
 }
 
 .aqua1 {
-    background-color: rgba(0, 0, 255, 0.5);
+    background-color: rgba(0, 0, 255, 0);
     color: white;
     width: 100%;
     translate: -15% 0%;
@@ -264,7 +264,7 @@ a:hover {
 }
 
 .green1 {
-    background-color: rgba(0, 255, 0, 0.5);
+    background-color: rgba(0, 255, 0, 0);
     color: white;
     width: 100%;
     translate: -15% 0%;
@@ -272,7 +272,7 @@ a:hover {
 }
 
 .help1 {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0);
     color: white;
     width: 275%;
     translate: -32.5% -75%;
