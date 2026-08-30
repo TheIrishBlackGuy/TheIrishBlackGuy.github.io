@@ -2,17 +2,129 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
     <title>Help Guide</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT ––––––––––––––––––––––––––––––––––––––––------–––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="css/overlaypopup.js"> </script>
+
+    <!-- <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script> -->
+    <!-- <script language="javascript" type="text/javascript" src="./js/farm.js"></script> -->
+
+    <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./js/main.js"></script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/farms.css"> -->
+
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
+
+    <style>
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    </style>
+
+    <script>
+        var timeElapsed = 0;
+        var myTimer = 0;
+
+        function start() {
+            myTimer = setInterval(function () {
+                timeElapsed += 1;
+                document.getElementById("time").innerText = timeElapsed;
+            }, 1000);
+        }
+    </script>
+
+
 </head>
 
-<body>
-    <h1>
-        <br><br>
-        I will be a help page<br>
-        <a class="navbar-link" href="map.html">Back</a>
-    </h1>
+<body class="main-body">
+    <br>
+    <nav class="navbar main-div">
+        <div class="container nav_pad" style="font-size: 200%;">
+            <ul>
+                <b>
+                    <li><a class="navbar-link" href="help.html">Help Guide</a></li>
+                    <li><a class="navbar-link" href="greenhouse.html"> The Greenhouse</a></li>
+                    <li><a class="navbar-link" href="tropical-safari.html"> The Tropical Safari</a></li>
+                    <li><a class="navbar-link" href="farm.html"> The Farmyard</a></li>
+                    <li><a class="navbar-link" href="aquarium.html"> The Aquarium</a></li>
+                </b>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row section">
+
+
+            <div class="four columns" style="text-align: center;">
+                <!-- john d -->
+                <div class="main-div">
+                    <img src="./assets/jd-default.png" width="125%"><br>.
+                </div>
+            </div>
+            <div class="three columns" style="text-align: center;">
+                <!-- john d -->
+                <div class="main-div" style="font-size: 125%; color: white;">
+                    <h3><b>Back to map</b></h3>
+                    <hr>
+                    <b>Hey</b>, I figured I could pull you aside over here to try give you <b>a breakdown</b> or maybe
+                    <b>some assistance</b> when it comes to helping me out around here. I was able to do some research
+                    into some of the glitches and made these <b>helpful guides</b> to try help you out. Hopefully, they can
+                    help you out a little bit. I know that I had some difficulty in <b>The Aquarium</b> so I'll try
+                    supply hints and tips once we get over there
+                </div>
+            </div>
+            <div class="five columns" style="text-align: center;">
+                <!-- john d -->
+                <div class="main-div">
+                    <img src="./assets/Logo_Final_Version.png" width="125%">
+                </div>
+            </div>
+        </div>
+
+        <div class="row section">
+            <div class="six columns" style="text-align: center;">
+                <!-- john d -->
+                <div class="main-div">
+                    <img src="./assets/help-farm.png" width="125%">
+                </div>
+            </div>
+            <div class="six columns" style="text-align: center;">
+                <!-- john d -->
+                <div class="main-div">
+                    <img src="./assets/help-aquarium.png" width="125%">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of MAIN container /////////////////-->
+
 </body>
 
 </html>
