@@ -102,17 +102,22 @@
                 </div>
                 <br>
                 <!-- inputs -->
-                <div class="main-div row section" style="text-align: center;">
-                    <div class="six columns" style="text-align: center;">
-                        <input type="text" id='username' placeholder="Tropical Safari Keyword?" autocomplete="off">
-                        <input type="text" id='username2' placeholder="Farmyard Keyword?" autocomplete="off">
+                <div class="main-div row section">
+                    <div class="six columns">
+                        <input type="text" id='username' style="text-align: center; width: 80%"
+                            placeholder="Tropical Safari Keyword?" autocomplete="off">
+                        <input type="text" id='username2' style="text-align: center; width: 80%"
+                            placeholder="Farmyard Keyword?" autocomplete="off">
                     </div>
-                    <div class="six columns" style="text-align: center;">
-                        <input type="text" id='username1' placeholder="Aquarium Keyword?" autocomplete="off">
-                        <input type="text" id='username3' placeholder="Greenhouse Keyword?" autocomplete="off">
+                    <div class="six columns">
+                        <input type="text" id='username1' style="text-align: center; width: 80%"
+                            placeholder="Aquarium Keyword?" autocomplete="off">
+                        <input type="text" id='username3' style="text-align: center; width: 80%"
+                            placeholder="Greenhouse Keyword?" autocomplete="off">
                     </div>
                     <div>
-                        <b style="font-size: large; color: white;">What have you learned of the zoo? Find any
+                        <b style="font-size: large; color: white;text-align: center">What have you learned of the zoo?
+                            Find any
                             keywords?</b>
                         <br><br>
                         <button type="button" id='buttonLogin' onclick="checkInput()">
@@ -236,62 +241,92 @@
 
 
 
-                <div class="main-div image-container">
-                    <img src="assets/map-v3.1.png">
+                <div class="main-div map">
+                    <!-- <img src="assets/map-v3.1.png"> -->
 
-                    <a href="tropical-safari.html">
-                        <div
+                    <div class="row section">
+                        <div class="five columns">
+                            <a href="tropical-safari.html">
+                                <div class="tropari1"></div>
+                            </a>
+                        </div>
+                        <div class="two columns">
+                            <h4>.</h4>
+                        </div>
+                        <div class="five columns">
+                            <a href="aquarium.html">
+                                <div class="aqua1"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row section">
+                        <div class="five columns">
+                            <a href="farm.html">
+                                <div class="farm1"></div>
+                            </a>
+                        </div>
+                        <div class="two columns">
+                            <a href="help.html">
+                                <div class="help1"></div>
+                            </a>
+                        </div>
+                        <div class="five columns">
+                            <a href="greenhouse.html">
+                                <div class="green1"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <a href="tropical-safari.html">
+                        <div class="tropari1"></div>
+                        <<div
                             style="background-color: rgba(255,255,0,.5); translate:40px -250px; width: 20%; height: 250px;">
                             tropical-safari</div>
                         <div
                             style="background-color: rgba(255,255,0,.5); translate:20% -610%; width: 38.5%; height: 150px;">
                             tropical-safari</div>
-                    </a>
+                    </a> -->
 
-                    <a href="aquarium.html">
-                        <div
-                            style="background-color: rgba(0,0,255,0.5); translate:0% -0%; width: 30%; height: 250px;">
+                <!-- <a href="aquarium.html">
+                        <div style="background-color: rgba(0,0,255,0.5); translate:0% -0%; width: 30%; height: 250px;">
                             aquarium</div>
-                        <div
-                            style="background-color: rgba(0,0,255,0.5); translate:0% 0%; width: 30%; height: 250px;">
+                        <div style="background-color: rgba(0,0,255,0.5); translate:0% 0%; width: 30%; height: 250px;">
                             aquarium</div>
-                    </a>
+                    </a> -->
 
-                    <a href="farm.html">
-                        <div
-                            style="background-color: rgba(255,128,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
+                <!-- <a href="farm.html">
+                        <div style="background-color: rgba(255,128,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
                             farm</div>
-                        <div
-                            style="background-color: rgba(255,128,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
+                        <div style="background-color: rgba(255,128,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
                             farm</div>
-                    </a>
+                    </a> -->
 
-                    <a href="greenhouse.html">
-                        <div
-                            style="background-color: rgba(0,255,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
+                <!-- <a href="greenhouse.html">
+                        <div style="background-color: rgba(0,255,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
                             greenhouse</div>
-                        <div
-                            style="background-color: rgba(0,255,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
+                        <div style="background-color: rgba(0,255,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
                             greenhouse</div>
-                    </a>
-                    
-                    <a href="help.html">
-                        <div
-                            style="background-color: rgba(255,0,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
+                    </a> -->
+
+                <!-- <a href="help.html">
+                        <div style="background-color: rgba(255,0,0,0.5); translate:0% 0%; width: 30%; height: 250px;">
                             help</div>
-                    </a>
+                    </a> -->
 
-                    <!-- <img src="assets/map-v3.1.png" alt="French Food" usemap="#foodmap" width="2100" height="1800">
+                <!-- <img src="assets/map-v3.1.png" alt="French Food" usemap="#foodmap" width="2100" height="1800">
                     <map name="foodmap">
                         <area shape="poly"
                             coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147"
                             alt="Croissant" href="croissant.htm">
                     </map> -->
 
-                </div>
             </div>
         </div>
-        <!-- <img src="assets/map-v3.1.png" alt="French Food" usemap="#foodmap" width="2100" height="1800">
+    </div>
+    <!-- <img src="assets/map-v3.1.png" alt="French Food" usemap="#foodmap" width="2100" height="1800">
         <map name="foodmap">
             <area shape="rect" coords="0,0,210,210" alt="Croissant" href="croissant.htm">
         </map> -->

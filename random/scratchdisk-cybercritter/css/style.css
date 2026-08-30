@@ -10,17 +10,6 @@
 a:hover {
     color: rgb(255, 0, 0);
 } */
-
-a {
-    color: #880000;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #c17b01;
-    text-decoration: none;
-}
-
 /* mark1 {
     background-color: red;
     color: white;
@@ -61,6 +50,17 @@ mark8 {
     color: white;
 }
  */
+
+
+a {
+    color: #880000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c17b01;
+    text-decoration: none;
+}
 
 .aqua-body {
     background-image: url('../assets/background-aquarium-v3.1.png');
@@ -168,8 +168,6 @@ mark8 {
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
 }
 
 .tropari-body1 {
@@ -177,8 +175,6 @@ mark8 {
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
 }
 
 .tropari-body2 {
@@ -186,8 +182,6 @@ mark8 {
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-
-
 }
 
 .tropari-div {
@@ -234,7 +228,56 @@ mark8 {
     /* border: 3px solid green;  */
 }
 
+.map {
+    width: 100%;
+    aspect-ratio: 2100 / 1800;
+    background-image: url('../assets/map-v3.1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* height: 700px; */
+}
 
+.tropari1 {
+    background-color: rgba(255, 255, 0, 0.5);
+    color: white;
+    width: 100%;
+    translate: 15% 0%;
+    aspect-ratio: 400 / 300;
+}
+
+.farm1 {
+    background-color: rgba(255, 128, 0, 0.5);
+    color: white;
+    width: 100%;
+    translate: 15% 0%;
+    aspect-ratio: 400 / 300;
+}
+
+.aqua1 {
+    background-color: rgba(0, 0, 255, 0.5);
+    color: white;
+    width: 100%;
+    translate: -15% 0%;
+    aspect-ratio: 400 / 300;
+}
+
+.green1 {
+    background-color: rgba(0, 255, 0, 0.5);
+    color: white;
+    width: 100%;
+    translate: -15% 0%;
+    aspect-ratio: 400 / 300;
+}
+
+.help1 {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    width: 275%;
+    translate: -32.5% -75%;
+    aspect-ratio: 400 / 300;
+}
 
 
 
