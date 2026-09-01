@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs –––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Greenhouse</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas ––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT ––––––––––––––––––––––––––––––––––––––––------–––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+    <!-- CSS & JS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="css/overlaypopup.js"> </script> -->
+    <!-- <script language="javascript" type="text/javascript" src="stuff.js"></script> -->
+    <script language="javascript" type="text/javascript" src="./lib/p5.min.js"></script>
+    <script language="javascript" type="text/javascript" src="./js/help.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/skeleton.css">
+    <!-- <link rel="stylesheet" href="css/custom.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/green.css">
+
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="assets/Logo_Final_Version-cropped.png">
+</head>
+
+<body class="green-body" onload="start()">
+    <br>
+
+    <div class="container">
+
+        <br>
+
+        <div class="row section">
+            <div class="seven columns" style="text-align: center;">
+
+                <!-- <div class="aqua-div">how john dill would explain instructions in character goes here</div><br> -->
+                <div class="green-div">
+                    <p style="font-size: 140%;">
+                        Put these <b>animals</b> in the <b>correct order</b> on the <b>right side</b>.</p>
+                </div>
+                <br>
+                <div class="green-div">
+                    <p style="font-size: 100%;">
+                        - - <b>Tarantula</b> is above the <b>Ladybug</b><br>
+                        - - <b>Yellow</b> can turn into a <b>butterfly</b><br>
+                        - - <b>Blue</b> commonly has spots on its back<br>
+                        - - - - - - - - - - - - - - - - - - - - <br>
+                        Options:<br> - - - - - - - - - - - - - - - <br>
+                        <b>Ladybug</b> - - <b>Tarantula</b><br><b>Slug</b> - - <b>Caterpillar</b>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="five columns">
+                <div style="text-align: center; font-size: 100%; color: white; font: bold;" class="green-div">
+                    <b>1. <input type="text" id='username'
+                            style="background-color: orangered; opacity: 80%; text-shadow: 0px 0px 6px black; text-align: center; width: 100%;"
+                            placeholder="Animal?" autocomplete="off"></b><br>
+                    <b>2. <input type="text" id='username1'
+                            style="background-color: yellow; opacity: 80%; text-shadow: 0px 0px 6px black; text-align: center; width: 100%;"
+                            placeholder="Animal?" autocomplete="off"></b><br>
+                    <b>3. <input type="text" id='username2'
+                            style="background-color: greenyellow; opacity: 80%; text-shadow: 0px 0px 6px black; text-align: center; width: 100%;"
+                            placeholder="Animal?" autocomplete="off"></b><br>
+                    <b>4. <input type="text" id='username3'
+                            style="background-color: dodgerblue; opacity: 80%; text-shadow: 0px 0px 6px black; text-align: center; width: 100%;"
+                            placeholder="Animal?" autocomplete="off"></b><br>
+
+                    <div style="text-align: center; font-size: 100%;" type="button" id='buttonLogin'
+                        onclick="checkInput()">
+                        <button>
+                            <h4 style="color: black"><b>Submit</b></h4>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end of MAIN container /////////////////-->
+
+</body>
+
+</html>

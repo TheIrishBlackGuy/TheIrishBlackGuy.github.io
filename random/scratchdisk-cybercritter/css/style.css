@@ -239,6 +239,52 @@ a:hover {
     /* height: 700px; */
 }
 
+.troparih {
+    width: 100%;
+    aspect-ratio: 37 / 21;
+    background-image: url('../assets/background-safari-v1.1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* height: 700px; */
+}
+
+.aquah {
+    width: 100%;
+    aspect-ratio: 37 / 21;
+    background-image: url('../assets/background-aquarium-v3.1.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* height: 700px; */
+}
+
+.farmh {
+    width: 100%;
+    aspect-ratio: 37 / 21;
+    background-image: url('../assets/background-farm-v2.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* height: 700px; */
+}
+
+.greenh {
+    width: 100%;
+    aspect-ratio: 37 / 21;
+    background-image: url('../assets/background-greenhouse-v3.png');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* height: 700px; */
+}
+
+
+
 .tropari1 {
     background-color: rgba(255, 255, 0, 0);
     color: white;
