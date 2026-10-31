@@ -231,7 +231,7 @@ a:hover {
 .map {
     width: 100%;
     aspect-ratio: 2100 / 1800;
-    background-image: url('../assets/map-v3.1.png');
+    background-image: url('../assets/map-v3.png');
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
